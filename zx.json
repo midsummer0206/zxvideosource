@@ -1,4 +1,4 @@
-{"spider":"https://jihulab.com/Pizazz/tvbox/-/raw/main/spider.jar;md5;1a00d5032cc02fad54510bab6d48ed4a",
+{"spider":"./fan.txt;md5;5543dae038ce2248e7759e9cbca295b9",
 "wallpaper":"https://api.likepoems.com/img/bing",
 "sites":
 	[{"key":"豆瓣","name":"仲夏影音","type":3,"api":"csp_Douban","searchable":0},
