@@ -1,4 +1,4 @@
-{"spider":"./fan.txt;md5;5543dae038ce2248e7759e9cbca295b9",
+{"spider":"https://jihulab.com/Pizazz/tvbox/-/raw/main/spider.jar;md5;1a00d5032cc02fad54510bab6d48ed4a",
 "wallpaper":"https://api.likepoems.com/img/bing",
 "sites":
 	[{"key":"豆瓣","name":"仲夏影音","type":3,"api":"csp_Douban","searchable":0},
@@ -29,6 +29,8 @@
 	{"key":"看了么","name":"看了么","type":3,"api":"./JS/drpy.min.js","ext":"./JS/看了么.js"},
 	{"key":"免费看","name":"免费看","type":3,"api":"./JS/drpy.min.js","ext":"./JS/免费看.js"},
 	{"key":"五五五","name":"五五五","type":3,"api":"./JS/drpy.min.js","ext":"./JS/五五五.js"},
+	{"key":"达达龟","name":"达达龟","type":3,"api":"./JS/drpy.min.js","ext":"./JS/达达龟.js"},
+	{"key":"茶杯狐","name":"茶杯狐","type":3,"api":"./JS/drpy.min.js","ext":"./JS/茶杯狐.js"},
 	{"key":"网飞影视","name":"网飞影视","type":3,"api":"./JS/drpy.min.js","ext":"./JS/网飞TV.js"},
 	{"key":"魔力高清","name":"魔力高清","type":3,"api":"./JS/drpy.min.js","ext":"./JS/HDmoli.js"},
 	{"key":"乐鱼影视","name":"乐鱼影视","type":3,"api":"./JS/drpy.min.js","ext":"./JS/乐鱼影视.js"},
