@@ -5,5 +5,5 @@
 
 #### 帮助
 
-1.  zx.json可到“main”分支下查看api.json，源地址已链接GITHUB；
+1.  zx.json源地址为PizazzGY-TVBox，已链接GITHUB；
 2.  zx.txt源地址内容可到 [https://github.com/Meroser/IPTV](https://github.com/Meroser/IPTV)下“IPTV-tvbox.txt”查看。
