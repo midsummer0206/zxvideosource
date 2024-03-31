@@ -6,4 +6,4 @@
 #### 帮助
 
 1.  zx.json源地址为PizazzGY-TVBox，已链接GITHUB；
-2.  zx.txt源地址内容可到 [https://github.com/fanmingming/live](https://github.com/fanmingming/live)下“IPTV-tvbox.txt”查看。
+2.  zx.txt源地址内容可到 [https://github.com/fanmingming/live](https://github.com/fanmingming/live)下“工具”中“在线M3U转TXT”查看。
