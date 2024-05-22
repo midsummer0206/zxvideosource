@@ -857,28 +857,6 @@
             "ext": "./JS/异世界.js"
         },
         {
-            "key": "喵次元",
-            "name": "喵次元",
-            "type": 3,
-            "api": "./JS/drpy2.min.js",
-            "ext": "./JS/喵次元.js"
-        },
-        {
-            "key": "次元城",
-            "name": "次元城",
-            "type": 3,
-            "api": "csp_Wexciyuancheng",
-            "searchable": 1,
-            "changeable": 1
-        },
-        {
-            "key": "喵物次元",
-            "name": "喵物次元",
-            "type": 3,
-            "api": "./JS/drpy2.min.js",
-            "ext": "./JS/喵物次元.js"
-        },
-        {
             "key": "曲奇动漫",
             "name": "曲奇动漫",
             "type": 3,
