@@ -1,5 +1,5 @@
 {
-    "spider": "./spider.jar;md5;c29d7ac6e74960e804f4fb4923ba01f8",
+    "spider": "./spider.jar;md5;3843f962622e1fa261e6cd26ebbe2807",
     "wallpaper": "https://api.likepoems.com/img/bing",
     "sites": [
         {
@@ -18,6 +18,7 @@
             "quickSearch": 0,
             "filterable": 0,
             "changeable": 0,
+            "indexs": 0,
             "ext": "http://127.0.0.1:9978/file/TVBox/token.txt"
         },
         {
@@ -27,11 +28,12 @@
             "api": "csp_Config",
             "searchable": 0,
             "changeable": 0,
+            "indexs": 0,
             "style": {
                 "type": "rect",
                 "ratio": 1.597
             },
-            "jar": "./danmu.jar;md5;1cd84661732d6bfd7fd4cc8f78cfad42"
+            "jar": "./danmu.jar;md5;ef899b3f9babf606e653cb735a70cfac"
         },
         {
             "key": "韩小圈",
@@ -41,7 +43,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "jar": "./danmu.jar;md5;1cd84661732d6bfd7fd4cc8f78cfad42"
+            "jar": "./danmu.jar;md5;ef899b3f9babf606e653cb735a70cfac"
         },
         {
             "key": "无忧短剧",
@@ -50,16 +52,70 @@
             "api": "csp_Duanj",
             "searchable": 1,
             "changeable": 0,
-            "jar": "./danmu.jar;md5;1cd84661732d6bfd7fd4cc8f78cfad42"
+            "style": {
+                "type": "rect",
+                "ratio": 1.433
+            },
+            "jar": "./danmu.jar;md5;ef899b3f9babf606e653cb735a70cfac"
         },
         {
-            "key": "上头短剧",
-            "name": "上头短剧",
+            "key": "在线短剧",
+            "name": "在线短剧",
             "type": 3,
             "api": "csp_Duanju",
             "searchable": 1,
             "changeable": 0,
-            "jar": "./danmu.jar;md5;1cd84661732d6bfd7fd4cc8f78cfad42"
+            "style": {
+                "type": "rect",
+                "ratio": 1.433
+            },
+            "jar": "./danmu.jar;md5;ef899b3f9babf606e653cb735a70cfac"
+        },
+        {
+            "key": "采集之王",
+            "name": "采集之王",
+            "type": 3,
+            "api": "./JS/drpy2.min.js",
+            "searchable": 1,
+            "quickSearch": 1,
+            "ext": "./JS/采集之王.js?type=url&params=./JSON/采集静态.json$1$1"
+        },
+        {
+            "key": "路人甲一",
+            "name": "路人甲一",
+            "type": 3,
+            "api": "csp_AppYsV2",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": " http://dh.li0580.com/api.php/app/"
+        },
+        {
+            "key": "路人甲二",
+            "name": "路人甲二",
+            "type": 3,
+            "api": "csp_AppYsV2",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": " http://122.228.84.103:5825/api.php/app/"
+        },
+        {
+            "key": "追忆影视",
+            "name": "追忆影视",
+            "type": 3,
+            "api": "csp_AppYsV2",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "http://110.42.7.101:1122/api.php/app/"
+        },
+        {
+            "key": "桃子影视",
+            "name": "桃子影视",
+            "type": 3,
+            "api": "./JS/drpy2.min.js",
+            "ext": "./JS/桃子影视.js"
         },
         {
             "key": "南瓜影视",
@@ -68,28 +124,34 @@
             "api": "csp_WexNgys",
             "searchable": 1,
             "quickSearch": 1,
-            "filterable": 0
+            "filterable": 1
         },
         {
             "key": "天天影视",
             "name": "天天影视",
             "type": 3,
-            "api": "csp_TTian",
-            "ext": "http://op.ysdqjs.cn"
+            "api": "csp_AppTT",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
         },
         {
             "key": "热播影视",
             "name": "热播影视",
             "type": 3,
-            "api": "csp_TTian",
-            "ext": "http://v.rbotv.cn"
+            "api": "csp_AppRB",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
         },
         {
             "key": "追剧影视",
             "name": "追剧影视",
             "type": 3,
-            "api": "csp_TTian",
-            "ext": "http://app.kzjtv.com"
+            "api": "csp_AppZJ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
         },
         {
             "key": "厂长资源",
@@ -99,7 +161,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "https://www.czys.top/"
+            "ext": "https://www.czys.pro/"
         },
         {
             "key": "低端影视",
@@ -115,6 +177,107 @@
             "name": "快看影视",
             "type": 3,
             "api": "csp_Kuaikan",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "苹果影视",
+            "name": "苹果影视",
+            "type": 3,
+            "api": "csp_LiteApple",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "胖虎影视",
+            "name": "胖虎影视",
+            "type": 3,
+            "api": "csp_Panghu",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://physvod.com"
+        },
+        {
+            "key": "剧圈影视",
+            "name": "剧圈影视",
+            "type": 3,
+            "api": "csp_Juqq",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "忍者影视",
+            "name": "忍者影视",
+            "type": 3,
+            "api": "csp_AppRZ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "http://rzys.xyz/"
+        },
+        {
+            "key": "毛驴影视",
+            "name": "毛驴影视",
+            "type": 3,
+            "api": "csp_MaoLv",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "可可影视",
+            "name": "可可影视",
+            "type": 3,
+            "api": "csp_Keke",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "圣城影视",
+            "name": "圣城影视",
+            "type": 3,
+            "api": "csp_SC1080",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "视觉影视",
+            "name": "视觉影视",
+            "type": 3,
+            "api": "csp_Xinsj",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "疯狗影视",
+            "name": "疯狗影视",
+            "type": 3,
+            "api": "csp_FengGo",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "耐看影视",
+            "name": "耐看影视",
+            "type": 3,
+            "api": "csp_Nkdy",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "FreeOK",
+            "name": "FreeOK",
+            "type": 3,
+            "api": "csp_FreeOK",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
@@ -152,88 +315,100 @@
             "changeable": 1
         },
         {
-            "key": "韩剧视频",
-            "name": "韩剧视频",
+            "key": "啾啾影视",
+            "name": "啾啾影视",
             "type": 3,
-            "api": "csp_Wexhanjutv",
+            "api": "csp_Wexjiohub",
             "searchable": 1,
             "changeable": 1
         },
         {
-            "key": "文才影视",
-            "name": "文才影视",
+            "key": "星辰影视",
+            "name": "星辰影视",
             "type": 3,
-            "api": "csp_Wexwencai",
+            "api": "csp_WexXingchen",
             "searchable": 1,
             "changeable": 1
         },
         {
-            "key": "花漾影视",
-            "name": "花漾影视",
+            "key": "农民影视",
+            "name": "农民影视",
             "type": 3,
-            "api": "csp_Wexhuayang",
+            "api": "csp_WexNmys",
             "searchable": 1,
             "changeable": 1
         },
         {
-            "key": "佳佳影视",
-            "name": "佳佳影视",
+            "key": "利播影视",
+            "name": "利播影视",
             "type": 3,
-            "api": "csp_Wexjiajia",
+            "api": "csp_Wexlibhd",
             "searchable": 1,
             "changeable": 1
         },
         {
-            "key": "秒播短剧",
-            "name": "秒播短剧",
+            "key": "纯享影视",
+            "name": "纯享影视",
             "type": 3,
-            "api": "csp_Wexduanjuvop",
+            "api": "csp_WexF4kvm",
             "searchable": 1,
             "changeable": 1
         },
         {
-            "key": "极品短剧",
-            "name": "极品短剧",
+            "key": "两个磁力",
+            "name": "两个磁力",
             "type": 3,
-            "api": "csp_Wexduanjuvmp",
+            "api": "csp_Wexbttwo",
             "searchable": 1,
             "changeable": 1
         },
         {
-            "key": "河马短剧",
-            "name": "河马短剧",
+            "key": "骚火影视",
+            "name": "骚火影视",
             "type": 3,
-            "api": "csp_Wexduanjuhema",
+            "api": "csp_Wexsaohuo",
             "searchable": 1,
             "changeable": 1
         },
         {
-            "key": "影探蓝光",
-            "name": "影探蓝光",
+            "key": "在线之家",
+            "name": "在线之家",
             "type": 3,
-            "api": "csp_App",
+            "api": "csp_Wexzxzj",
             "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0,
-            "ext": "z6aMzDclLwZa7eCQN0nAaMJTu+8HfYERSWRA9AuiPd5ju12RwkZY66pe1tXgTKme4myqMhNAu9a5aDusX/CFhq0GULMcLI0pBe4sO5Jk9iHT4EzGybWth1IYcQZzmT/Uknh6TZ6cHKTEuxhe9kEcbHe/matKBgar76JHg9Ss2kMqYgvU1NSsFSnVVAE7LeVECZO0XGQyrUS8VCpRjkdBsxmMhpS0QcwkxE57v9xCb+A="
+            "changeable": 1
         },
         {
-            "key": "耐看影视",
-            "name": "耐看影视",
+            "key": "愉悦影视",
+            "name": "愉悦影视",
             "type": 3,
-            "api": "csp_AppNK",
+            "api": "csp_Wexyuyueys",
             "searchable": 1,
-            "changeable": 0,
-            "ext": "wZB2IYYD+8ueQYpVwNaeD9aWApRB50dhdsn0OGaiy7TzSEVFMPaUfP2IAhTWawXLgmBeISnN/ofFRtSAyaR1VuyyMIMe3u73MLA9RoQufYOihJUTbZl+jdef+X40n5RBuTS2EtpQjp5pWeakl4S99w=="
+            "changeable": 1
         },
         {
-            "key": "圣城影视",
-            "name": "圣城影视",
+            "key": "花蕊影视",
+            "name": "花蕊影视",
             "type": 3,
-            "api": "csp_AppNK",
+            "api": "csp_Wexhuaruitv",
             "searchable": 1,
-            "changeable": 0,
-            "ext": "mDw3UhvpqIkZ5UdXklz/4Il9zM5cNjB0mlRRZ9AJtWoDBppZXY/MdmoGXv//uRgRP2GmDU4DQ0dtJ3TOynvDwm+Yb2YXjCzfj0qmrCIfLeBniWNTsTxzfA32PGyymnWql5B8DHQxKbHgDEgJ6j4L4w=="
+            "changeable": 1
+        },
+        {
+            "key": "精品短剧",
+            "name": "精品短剧",
+            "type": 3,
+            "api": "csp_Wexvipduanju",
+            "searchable": 1,
+            "changeable": 1
+        },
+        {
+            "key": "良品短剧",
+            "name": "良品短剧",
+            "type": 3,
+            "api": "csp_Wexduanjuvip",
+            "searchable": 1,
+            "changeable": 1
         },
         {
             "key": "看看影视",
@@ -245,55 +420,70 @@
             "filterable": 0
         },
         {
-            "key": "米米影视",
-            "name": "米米影视",
+            "key": "大米星球",
+            "name": "大米星球",
             "type": 3,
-            "api": "csp_WebDM",
+            "api": "csp_AppDaMi",
             "searchable": 1,
-            "quickSearch": 1,
+            "quickSearch": 0,
             "filterable": 0
         },
         {
-            "key": "追影视频",
-            "name": "追影视频",
+            "key": "铁剧影视",
+            "name": "铁剧影视",
             "type": 3,
-            "api": "csp_WebZY",
+            "api": "csp_AppBr",
             "searchable": 1,
-            "quickSearch": 1,
+            "quickSearch": 0,
             "filterable": 0
         },
         {
-            "key": "南坊追剧",
-            "name": "南坊追剧",
+            "key": "笙歌影视",
+            "name": "笙歌影视",
             "type": 3,
-            "api": "csp_WebNF",
+            "api": "csp_AppYY",
+            "searchable": 1,
+            "quickSearch": 0,
+            "changeable": 0
+        },
+        {
+            "key": "不卡影视",
+            "name": "不卡影视",
+            "type": 3,
+            "api": "csp_App",
+            "searchable": 1,
+            "quickSearch": 0,
+            "changeable": 0,
+            "ext": "PuMSXHTlG7XuTPHibOyZteVY1Bbl6ZlsngCB5cB1aT58PUe5B3fTqNqjFlBRB9gUMb3sBH9Ft54h0DfIM8NZXSQZqL75gkSizgP2bD/FXuU7p8/Atv6nfoWFwgWWXehi2e2bdvWuIZd/iTHBLXJLOErvkwen7BleeOnRa7QzqB9XmOsv/M7AccHoiKa8JPMRfdXDPQT4Edlrk+Fij03D/m66ytOrnl7W4tGxo7UmbtKLKuR1Tr2ureKLLfmEqHCOdCwtqw2Bgi/NNxDXZQAx5ihHKNNipXEDhBXyQBJgfnsuxCd95h1gj845lEYqc/PK/WI9fbWCuQMfd50aPtxG/rRQjPClzRSEk+KOpz9njtQ="
+        },
+        {
+            "key": "摩托影视",
+            "name": "摩托影视",
+            "type": 3,
+            "api": "csp_App",
             "searchable": 1,
             "quickSearch": 0,
             "filterable": 0,
-            "ext": "https://www.nfzj.fun"
+            "ext": "j3UE7cVyk0jKGyMPkJ35EnqUgtOg+PN9OJevxJzkfD20vgt+RqQVvc3kcbSRgThbJjVk2hC6FWnD0fWIqWd4D4S/NPFftLiwX7Yf2pvV3P2hRAjNWiPO+iJQ33XkJeUHW9gMIzn0FkxZOs+o8juC1SnSkfjblSU1wtxBOetwgC8habcRdvOZEjBSLuZj8SlIjQ9QzwZivBSQGQ44j1bkAxNO4k1MhYbM5Z6QWxv/341MNNt7lsI9pldpg5/KtM/USj9Ftmmree+9m/3E/UgIwWzCl3Ax9B8NQQ7uGFr2wq68ahEIcCZyL3l+U37oARUk"
         },
         {
-            "key": "农民影视",
-            "name": "农民影视",
+            "key": "星芽短剧",
+            "name": "星芽短剧",
             "type": 3,
-            "api": "csp_WebNM",
+            "api": "csp_AppXY",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0
+        },
+        {
+            "key": "视频库",
+            "name": "视频库",
+            "type": 3,
+            "api": "csp_WebVidHub",
             "searchable": 1,
             "quickSearch": 0,
             "filterable": 0,
-            "ext": "https://v.nmvod.cn"
-        },
-        {
-            "key": "八八影视",
-            "name": "八八影视",
-            "type": 3,
-            "api": "csp_AppEight",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0,
-            "ext": {
-                "siteUrl": "https://api.kpyun6.cn",
-                "deviceId": "b0d43379a488e74d"
-            }
+            "ext": "https://vidhub1.cc"
         },
         {
             "key": "星芽短剧",
@@ -330,7 +520,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1,
-            "ext": "https://v.ikanbot.com"
+            "ext": "https://v.aikanbot.com"
         },
         {
             "key": "新视觉",
@@ -358,6 +548,20 @@
             "type": 3,
             "api": "./JS/drpy2.min.js",
             "ext": "./JS/爱奇艺.js"
+        },
+        {
+            "key": "三六零",
+            "name": "三六零",
+            "type": 3,
+            "api": "./JS/drpy2.min.js",
+            "ext": "./JS/三六零.js"
+        },
+        {
+            "key": "剧圈圈",
+            "name": "剧圈圈",
+            "type": 3,
+            "api": "./JS/drpy2.min.js",
+            "ext": "./JS/剧圈圈.js"
         },
         {
             "key": "追剧迷",
@@ -416,6 +620,20 @@
             "ext": "./JS/芒果视频.js"
         },
         {
+            "key": "搜狗视频",
+            "name": "搜狗视频",
+            "type": 3,
+            "api": "./JS/drpy2.min.js",
+            "ext": "./JS/搜狗视频.js"
+        },
+        {
+            "key": "哔哩视频",
+            "name": "哔哩视频",
+            "type": 3,
+            "api": "./JS/drpy2.min.js",
+            "ext": "./JS/哔哩视频.js"
+        },
+        {
             "key": "乐鱼影视",
             "name": "乐鱼影视",
             "type": 3,
@@ -437,13 +655,6 @@
             "ext": "./JS/大米星球.js"
         },
         {
-            "key": "在线之家",
-            "name": "在线之家",
-            "type": 3,
-            "api": "./JS/drpy2.min.js",
-            "ext": "./JS/在线之家.js"
-        },
-        {
             "key": "欧帝影院",
             "name": "欧帝影院",
             "type": 3,
@@ -463,16 +674,6 @@
             "type": 3,
             "api": "./JS/drpy2.min.js",
             "ext": "./JS/畅梦影视.js"
-        },
-        {
-            "key": "蛋蛋影视",
-            "name": "蛋蛋影视",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./XBPQ/蛋蛋影视.json"
         },
         {
             "key": "五五影视",
@@ -525,47 +726,13 @@
             "ext": "./XYQHiker/奇趣影视.json"
         },
         {
-            "key": "四九资源",
-            "name": "四九资源",
+            "key": "蚂蚁资源",
+            "name": "蚂蚁资源",
             "type": 1,
-            "api": "https://49zyw.com/api.php/provide/vod/",
+            "api": "http://dsakf23665.com/api.php/provide/vod/from/NBY",
             "searchable": 1,
             "changeable": 1,
-            "categories": [
-                "纪录片",
-                "动作片",
-                "爱情片",
-                "科幻片",
-                "恐怖片",
-                "剧情片",
-                "战争片",
-                "喜剧片",
-                "动画片",
-                "犯罪片",
-                "奇幻片",
-                "灾难片",
-                "悬疑片",
-                "其他片",
-                "欧美剧",
-                "香港剧",
-                "国产剧",
-                "韩国剧",
-                "台湾剧",
-                "泰国剧",
-                "日剧",
-                "海外剧",
-                "国产动漫",
-                "日本动漫",
-                "欧美动漫",
-                "海外动漫",
-                "大陆综艺",
-                "港台综艺",
-                "日韩综艺",
-                "欧美综艺",
-                "电影解说",
-                "体育赛事",
-                "短剧"
-            ]
+            "playUrl": "json:http://121.62.61.51:6888//api//?key=qMdg1EDXPe9NH3bG0z&url="
         },
         {
             "key": "红牛资源",
@@ -794,11 +961,11 @@
             ]
         },
         {
-            "key": "AnFuns",
-            "name": "AnFuns",
+            "key": "58动漫",
+            "name": "58动漫",
             "type": 3,
             "api": "./JS/drpy2.min.js",
-            "ext": "./JS/AnFuns.js"
+            "ext": "./JS/58动漫.js"
         },
         {
             "key": "Anime1",
@@ -813,13 +980,6 @@
             "type": 3,
             "api": "./JS/drpy2.min.js",
             "ext": "./JS/NT动漫.js"
-        },
-        {
-            "key": "58动漫",
-            "name": "58动漫",
-            "type": 3,
-            "api": "./JS/drpy2.min.js",
-            "ext": "./JS/58动漫.js"
         },
         {
             "key": "路漫漫",
@@ -857,11 +1017,18 @@
             "ext": "./JS/异世界.js"
         },
         {
-            "key": "曲奇动漫",
-            "name": "曲奇动漫",
+            "key": "次元城",
+            "name": "次元城",
             "type": 3,
             "api": "./JS/drpy2.min.js",
-            "ext": "./JS/曲奇动漫.js"
+            "ext": "./JS/次元城.js"
+        },
+        {
+            "key": "喵物次元",
+            "name": "喵物次元",
+            "type": 3,
+            "api": "./JS/drpy2.min.js",
+            "ext": "./JS/喵物次元.js"
         },
         {
             "key": "妮可动漫",
@@ -885,12 +1052,39 @@
             "ext": "./JS/怡萱动漫.js"
         },
         {
-            "key": "稀饭动漫",
-            "name": "稀饭动漫",
+            "key": "花子动漫",
+            "name": "花子动漫",
             "type": 3,
-            "api": "csp_Wexxifan",
-            "searchable": 1,
-            "changeable": 1
+            "api": "./JS/drpy2.min.js",
+            "ext": "./JS/花子动漫.js"
+        },
+        {
+            "key": "驴番动漫",
+            "name": "驴番动漫",
+            "type": 3,
+            "api": "./JS/drpy2.min.js",
+            "ext": "./JS/驴番动漫.js"
+        },
+        {
+            "key": "动漫巴士",
+            "name": "动漫巴士",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./XBPQ/动漫巴士.json"
+        },
+        {
+            "key": "樱花动漫",
+            "name": "樱花动漫",
+            "type": 3,
+            "api": "./JS/drpy2.min.js",
+            "ext": "./JS/樱花动漫.js"
+        },
+        {
+            "key": "大米动漫",
+            "name": "大米动漫",
+            "type": 3,
+            "api": "./JS/drpy2.min.js",
+            "ext": "./JS/大米动漫.js"
         },
         {
             "key": "暮暮动漫",
@@ -900,34 +1094,7 @@
             "searchable": 1,
             "quickSearch": 0,
             "filterable": 0,
-            "ext": "https://www.mutefun.tv"
-        },
-        {
-            "key": "维奇动漫",
-            "name": "维奇动漫",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0,
-            "ext": "./XBPQ/维奇动漫.json"
-        },
-        {
-            "key": "动漫巴士",
-            "name": "动漫巴士",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0,
-            "ext": "./XBPQ/动漫巴士.json"
-        },
-        {
-            "key": "樱花动漫",
-            "name": "樱花动漫",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "ext": "分类url:https://www.857yhdm.com/show/{cateId}--{by}------{catePg}---{year}.html,分类:日本动漫$ribendongman#国产动漫$guochandongman#动漫电影$dongmandianying#欧美动漫$omeidongman"
+            "ext": "https://www.mutean.com"
         },
         {
             "key": "南瓜弹幕",
@@ -940,7 +1107,7 @@
             "ext": {
                 "danmu": true
             },
-            "jar": "./danmu.jar;md5;1cd84661732d6bfd7fd4cc8f78cfad42"
+            "jar": "./danmu.jar;md5;ef899b3f9babf606e653cb735a70cfac"
         },
         {
             "key": "酷看弹幕",
@@ -953,7 +1120,7 @@
             "ext": {
                 "danmu": true
             },
-            "jar": "./danmu.jar;md5;1cd84661732d6bfd7fd4cc8f78cfad42"
+            "jar": "./danmu.jar;md5;ef899b3f9babf606e653cb735a70cfac"
         },
         {
             "key": "厂长弹幕",
@@ -966,7 +1133,7 @@
             "ext": {
                 "danmu": true
             },
-            "jar": "./danmu.jar;md5;1cd84661732d6bfd7fd4cc8f78cfad42"
+            "jar": "./danmu.jar;md5;ef899b3f9babf606e653cb735a70cfac"
         },
         {
             "key": "天天弹幕",
@@ -979,7 +1146,7 @@
             "ext": {
                 "danmu": true
             },
-            "jar": "./danmu.jar;md5;1cd84661732d6bfd7fd4cc8f78cfad42"
+            "jar": "./danmu.jar;md5;ef899b3f9babf606e653cb735a70cfac"
         },
         {
             "key": "三六零弹幕",
@@ -992,7 +1159,7 @@
             "ext": {
                 "danmu": true
             },
-            "jar": "./danmu.jar;md5;1cd84661732d6bfd7fd4cc8f78cfad42"
+            "jar": "./danmu.jar;md5;ef899b3f9babf606e653cb735a70cfac"
         },
         {
             "key": "机器人弹幕",
@@ -1005,7 +1172,7 @@
             "ext": {
                 "danmu": true
             },
-            "jar": "./danmu.jar;md5;1cd84661732d6bfd7fd4cc8f78cfad42"
+            "jar": "./danmu.jar;md5;ef899b3f9babf606e653cb735a70cfac"
         },
         {
             "key": "小苹果弹幕",
@@ -1018,7 +1185,7 @@
             "ext": {
                 "danmu": true
             },
-            "jar": "./danmu.jar;md5;1cd84661732d6bfd7fd4cc8f78cfad42"
+            "jar": "./danmu.jar;md5;ef899b3f9babf606e653cb735a70cfac"
         },
         {
             "key": "一起看弹幕",
@@ -1031,7 +1198,7 @@
             "ext": {
                 "danmu": true
             },
-            "jar": "./danmu.jar;md5;1cd84661732d6bfd7fd4cc8f78cfad42"
+            "jar": "./danmu.jar;md5;ef899b3f9babf606e653cb735a70cfac"
         },
         {
             "key": "JOJO弹幕",
@@ -1044,7 +1211,7 @@
             "ext": {
                 "danmu": true
             },
-            "jar": "./danmu.jar;md5;1cd84661732d6bfd7fd4cc8f78cfad42"
+            "jar": "./danmu.jar;md5;ef899b3f9babf606e653cb735a70cfac"
         },
         {
             "key": "荐片弹幕",
@@ -1058,7 +1225,7 @@
             "ext": {
                 "danmu": true
             },
-            "jar": "./danmu.jar;md5;1cd84661732d6bfd7fd4cc8f78cfad42"
+            "jar": "./danmu.jar;md5;ef899b3f9babf606e653cb735a70cfac"
         },
         {
             "key": "哔嘀弹幕",
@@ -1071,7 +1238,7 @@
             "ext": {
                 "danmu": true
             },
-            "jar": "./danmu.jar;md5;1cd84661732d6bfd7fd4cc8f78cfad42"
+            "jar": "./danmu.jar;md5;ef899b3f9babf606e653cb735a70cfac"
         },
         {
             "key": "不太灵弹幕",
@@ -1083,7 +1250,7 @@
             "ext": {
                 "danmu": true
             },
-            "jar": "./danmu.jar;md5;1cd84661732d6bfd7fd4cc8f78cfad42"
+            "jar": "./danmu.jar;md5;ef899b3f9babf606e653cb735a70cfac"
         },
         {
             "key": "玩偶弹幕",
@@ -1096,10 +1263,121 @@
             "ext": {
                 "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
                 "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
-                "site": "https://www.wogg.net",
+                "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
+                "site": "https://www.wogg.link",
                 "danmu": true
             },
-            "jar": "./danmu.jar;md5;1cd84661732d6bfd7fd4cc8f78cfad42"
+            "jar": "./danmu.jar;md5;ef899b3f9babf606e653cb735a70cfac"
+        },
+        {
+            "key": "六趣弹幕",
+            "name": "弹幕｜六趣",
+            "type": 3,
+            "api": "csp_Wogg",
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+            "ext": {
+                "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
+                "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
+                "site": "https://cms.715d.com",
+                "danmu": true
+            },
+            "jar": "./danmu.jar;md5;ef899b3f9babf606e653cb735a70cfac"
+        },
+        {
+            "key": "夸克玩偶弹幕",
+            "name": "弹幕｜玩偶",
+            "type": 3,
+            "api": "csp_Wobg",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "ext": {
+                "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
+                "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
+                "danmu": true
+            },
+            "jar": "./danmu.jar;md5;ef899b3f9babf606e653cb735a70cfac"
+        },
+        {
+            "key": "夸克土豆弹幕",
+            "name": "弹幕｜土豆",
+            "type": 3,
+            "api": "csp_Wobg",
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+            "ext": {
+                "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
+                "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
+                "site": "https://tudou.lvdoui.top",
+                "danmu": true
+            },
+            "jar": "./danmu.jar;md5;ef899b3f9babf606e653cb735a70cfac"
+        },
+        {
+            "key": "夸克多多弹幕",
+            "name": "弹幕｜多多",
+            "type": 3,
+            "api": "csp_Wobg",
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+            "ext": {
+                "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
+                "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
+                "site": "https://tv.yydsys.top",
+                "danmu": true
+            },
+            "jar": "./danmu.jar;md5;ef899b3f9babf606e653cb735a70cfac"
+        },
+        {
+            "key": "夸克蜡笔弹幕",
+            "name": "弹幕｜蜡笔",
+            "type": 3,
+            "api": "csp_Wobg",
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+            "ext": {
+                "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
+                "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
+                "site": "https://duopan.fun",
+                "danmu": true
+            },
+            "jar": "http://127.0.0.1:9978/file/TVBoxOSC/本地仓/danmu.jar"
+        },
+        {
+            "key": "夸克团长弹幕",
+            "name": "弹幕｜团长",
+            "type": 3,
+            "api": "csp_Tzfile",
+            "searchable": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "ext": {
+                "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
+                "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
+                "danmu": true
+            },
+            "jar": "./danmu.jar;md5;ef899b3f9babf606e653cb735a70cfac"
+        },
+        {
+            "key": "夸克影搜弹幕",
+            "name": "弹幕｜影搜",
+            "type": 3,
+            "api": "csp_Yingso",
+            "searchable": 1,
+            "filterable": 0,
+            "changeable": 1,
+            "ext": {
+                "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
+                "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
+                "danmu": true
+            },
+            "jar": "./danmu.jar;md5;ef899b3f9babf606e653cb735a70cfac"
         },
         {
             "key": "搜索弹幕",
@@ -1113,7 +1391,7 @@
                 "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
                 "danmu": true
             },
-            "jar": "./danmu.jar;md5;1cd84661732d6bfd7fd4cc8f78cfad42"
+            "jar": "./danmu.jar;md5;ef899b3f9babf606e653cb735a70cfac"
         },
         {
             "key": "云云弹幕",
@@ -1127,7 +1405,7 @@
                 "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
                 "danmu": true
             },
-            "jar": "./danmu.jar;md5;1cd84661732d6bfd7fd4cc8f78cfad42"
+            "jar": "./danmu.jar;md5;ef899b3f9babf606e653cb735a70cfac"
         },
         {
             "key": "云搜弹幕",
@@ -1141,7 +1419,7 @@
                 "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
                 "danmu": true
             },
-            "jar": "./danmu.jar;md5;1cd84661732d6bfd7fd4cc8f78cfad42"
+            "jar": "./danmu.jar;md5;ef899b3f9babf606e653cb735a70cfac"
         },
         {
             "key": "盘搜弹幕",
@@ -1155,7 +1433,7 @@
                 "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
                 "danmu": true
             },
-            "jar": "./danmu.jar;md5;1cd84661732d6bfd7fd4cc8f78cfad42"
+            "jar": "./danmu.jar;md5;ef899b3f9babf606e653cb735a70cfac"
         },
         {
             "key": "易搜弹幕",
@@ -1168,9 +1446,9 @@
             "ext": {
                 "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
                 "danmu": true,
-                "cookie": "satoken=5f91a828-2198-4630-ac41-da5a217c01d7"
+                "cookie": "satoken=60201207-5254-4d44-8ed9-db4ed5476163"
             },
-            "jar": "./danmu.jar;md5;1cd84661732d6bfd7fd4cc8f78cfad42"
+            "jar": "./danmu.jar;md5;ef899b3f9babf606e653cb735a70cfac"
         },
         {
             "key": "云盘弹幕",
@@ -1182,9 +1460,67 @@
             "changeable": 1,
             "ext": {
                 "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
+                "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
                 "danmu": true
             },
-            "jar": "./danmu.jar;md5;1cd84661732d6bfd7fd4cc8f78cfad42"
+            "jar": "./danmu.jar;md5;ef899b3f9babf606e653cb735a70cfac"
+        },
+        {
+            "key": "小纸条弹幕",
+            "name": "弹幕｜小纸条",
+            "type": 3,
+            "api": "csp_XiaoZhiTiao",
+            "searchable": 1,
+            "filterable": 1,
+            "changeable": 0,
+            "ext": {
+                "token": "http://127.0.0.1:9978/file/TVBox/token.txt"
+            },
+            "jar": "http://127.0.0.1:9978/file/TVBoxOSC/本地仓/danmu.jar"
+        },
+        {
+            "key": "夸克趣盘搜弹幕",
+            "name": "弹幕｜趣盘搜",
+            "type": 3,
+            "api": "csp_QuPanSou",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "ext": {
+                "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
+                "danmu": true
+            },
+            "jar": "./danmu.jar;md5;ef899b3f9babf606e653cb735a70cfac"
+        },
+        {
+            "key": "夸克爱盘搜弹幕",
+            "name": "弹幕｜爱盘搜",
+            "type": 3,
+            "api": "csp_AiPanSou",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "ext": {
+                "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
+                "danmu": true
+            },
+            "jar": "./danmu.jar;md5;ef899b3f9babf606e653cb735a70cfac"
+        },
+        {
+            "key": "夸克盘搜弹幕",
+            "name": "弹幕｜夸克盘搜",
+            "type": 3,
+            "api": "csp_Qkpanso",
+            "searchable": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "ext": {
+                "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
+                "danmu": true
+            },
+            "jar": "./danmu.jar;md5;ef899b3f9babf606e653cb735a70cfac"
         },
         {
             "key": "荐片",
@@ -1262,6 +1598,27 @@
             "ext": "./XYQHiker/电影港.json"
         },
         {
+            "key": "好恐怖",
+            "name": "磁力｜好恐怖",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./XBPQ/好恐怖.json"
+        },
+        {
+            "key": "小白网",
+            "name": "磁力｜小白网",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "playerType": 1,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./XBPQ/小白网.json"
+        },
+        {
             "key": "布谷TV",
             "name": "磁力｜布谷TV",
             "type": 3,
@@ -1336,13 +1693,48 @@
             "searchable": 0,
             "quickSearch": 0,
             "filterable": 0,
+            "indexs": 0,
             "ext": {
                 "token": "http://127.0.0.1:9978/file/TVBox/token.txt"
             },
             "style": {
                 "type": "list"
             },
-            "jar": "./danmu.jar;md5;1cd84661732d6bfd7fd4cc8f78cfad42"
+            "jar": "./danmu.jar;md5;ef899b3f9babf606e653cb735a70cfac"
+        },
+        {
+            "key": "我的夸克",
+            "name": "我的｜夸克",
+            "type": 3,
+            "api": "csp_MyQuark",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 0,
+            "indexs": 0,
+            "ext": {
+                "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt"
+            },
+            "style": {
+                "type": "list"
+            },
+            "jar": "./danmu.jar;md5;ef899b3f9babf606e653cb735a70cfac"
+        },
+        {
+            "key": "我的UC",
+            "name": "我的｜UC",
+            "type": 3,
+            "api": "csp_MyUc",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 0,
+            "indexs": 0,
+            "ext": {
+                "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt"
+            },
+            "style": {
+                "type": "list"
+            },
+            "jar": "./danmu.jar;md5;ef899b3f9babf606e653cb735a70cfac"
         },
         {
             "key": "阿里合集",
@@ -1352,6 +1744,7 @@
             "searchable": 1,
             "changeable": 0,
             "filterable": 0,
+            "indexs": 0,
             "ext": {
                 "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
                 "share": "./JS/alishare.txt"
@@ -1359,7 +1752,7 @@
             "style": {
                 "type": "list"
             },
-            "jar": "./danmu.jar;md5;1cd84661732d6bfd7fd4cc8f78cfad42"
+            "jar": "./danmu.jar;md5;ef899b3f9babf606e653cb735a70cfac"
         },
         {
             "key": "玩偶哥哥",
@@ -1370,6 +1763,16 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "./XYQHiker/玩偶哥哥.json"
+        },
+        {
+            "key": "云盘六趣",
+            "name": "云盘｜六趣",
+            "type": 3,
+            "api": "csp_XYQHikerAL",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./XYQHiker/六趣.json"
         },
         {
             "key": "天天开心",
@@ -1400,6 +1803,16 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "./XYQHiker/多多影音.json"
+        },
+        {
+            "key": "云盘蜡笔",
+            "name": "云盘｜蜡笔",
+            "type": 3,
+            "api": "csp_XYQHikerAL",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./XYQHiker/蜡笔.json"
         },
         {
             "key": "云盘搜索",
@@ -1482,136 +1895,24 @@
             "ext": "./XYQHiker/云盘资源.json"
         },
         {
-            "key": "云盘资源分享",
-            "name": "云盘｜分享",
+            "key": "我的小站",
+            "name": "云盘｜小站",
             "type": 3,
             "api": "csp_XYQHikerAL",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "./XYQHiker/云盘资源分享.json"
+            "ext": "./XYQHiker/我的小站.json"
         },
         {
-            "key": "夸克玩偶弹幕",
-            "name": "夸克｜玩偶",
+            "key": "Gitcafe",
+            "name": "云盘｜小纸条",
             "type": 3,
-            "api": "csp_Wobg",
+            "api": "csp_Gitcafe",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "changeable": 1,
-            "ext": {
-                "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
-                "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
-                "danmu": true
-            },
-            "jar": "./danmu.jar;md5;1cd84661732d6bfd7fd4cc8f78cfad42"
-        },
-        {
-            "key": "夸克土豆弹幕",
-            "name": "夸克｜土豆",
-            "type": 3,
-            "api": "csp_Wobg",
-            "quickSearch": 1,
-            "changeable": 1,
-            "filterable": 1,
-            "ext": {
-                "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
-                "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
-                "site": "https://tudou.lvdoui.top",
-                "danmu": true
-            },
-            "jar": "./danmu.jar;md5;1cd84661732d6bfd7fd4cc8f78cfad42"
-        },
-        {
-            "key": "夸克多多弹幕",
-            "name": "夸克｜多多",
-            "type": 3,
-            "api": "csp_Wobg",
-            "quickSearch": 1,
-            "changeable": 1,
-            "filterable": 1,
-            "ext": {
-                "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
-                "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
-                "site": "https://tv.yydsys.top",
-                "danmu": true
-            },
-            "jar": "./danmu.jar;md5;1cd84661732d6bfd7fd4cc8f78cfad42"
-        },
-        {
-            "key": "夸克团长弹幕",
-            "name": "夸克｜团长",
-            "type": 3,
-            "api": "csp_Tzfile",
-            "searchable": 1,
-            "filterable": 1,
-            "changeable": 1,
-            "ext": {
-                "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
-                "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
-                "danmu": true
-            },
-            "jar": "./danmu.jar;md5;1cd84661732d6bfd7fd4cc8f78cfad42"
-        },
-        {
-            "key": "夸克盘搜弹幕",
-            "name": "夸克｜盘搜",
-            "type": 3,
-            "api": "csp_Qkpanso",
-            "searchable": 1,
-            "filterable": 1,
-            "changeable": 1,
-            "ext": {
-                "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
-                "danmu": true
-            },
-            "jar": "./danmu.jar;md5;1cd84661732d6bfd7fd4cc8f78cfad42"
-        },
-        {
-            "key": "夸克影搜弹幕",
-            "name": "夸克｜影搜",
-            "type": 3,
-            "api": "csp_Yingso",
-            "searchable": 1,
-            "filterable": 0,
-            "changeable": 1,
-            "ext": {
-                "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
-                "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
-                "danmu": true
-            },
-            "jar": "./danmu.jar;md5;1cd84661732d6bfd7fd4cc8f78cfad42"
-        },
-        {
-            "key": "夸克趣盘搜弹幕",
-            "name": "夸克｜趣盘搜",
-            "type": 3,
-            "api": "csp_QuPanSou",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "changeable": 1,
-            "ext": {
-                "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
-                "danmu": true
-            },
-            "jar": "./danmu.jar;md5;1cd84661732d6bfd7fd4cc8f78cfad42"
-        },
-        {
-            "key": "夸克爱盘搜弹幕",
-            "name": "夸克｜爱盘搜",
-            "type": 3,
-            "api": "csp_AiPanSou",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "changeable": 1,
-            "ext": {
-                "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
-                "danmu": true
-            },
-            "jar": "./danmu.jar;md5;1cd84661732d6bfd7fd4cc8f78cfad42"
+            "ext": "http://127.0.0.1:9978/file/TVBox/token.txt"
         },
         {
             "key": "push_agent",
@@ -1623,9 +1924,10 @@
             "changeable": 0,
             "ext": {
                 "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
-                "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt"
+                "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
+                "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt"
             },
-            "jar": "./danmu.jar;md5;1cd84661732d6bfd7fd4cc8f78cfad42"
+            "jar": "./danmu.jar;md5;ef899b3f9babf606e653cb735a70cfac"
         }
     ],
     "parses": [
@@ -1633,6 +1935,71 @@
             "name": "聚合",
             "type": 3,
             "url": "Demo"
+        },
+        {
+            "name": "推荐1",
+            "url": "http://jx.li0580.com/home/api?type=ys&uid=2712055&key=ehknxBCFGIKLMUVXZ5&url=",
+            "type": "1",
+            "status": "normal",
+            "type_text": "Type 1",
+            "status_text": "正常"
+        },
+        {
+            "name": "推荐2",
+            "url": "https://ldhz.li0580.com//api/jsonindex.php/?key=7Dtvavu8iDUkd1vRxC&url=",
+            "type": "1",
+            "status": "normal",
+            "type_text": "Type 1",
+            "status_text": "正常"
+        },
+        {
+            "name": "推荐3",
+            "url": "http://110.42.7.182:881/api/?key=c4c3p0YQDnvmdaoVnT&url=",
+            "type": "1",
+            "status": "normal",
+            "type_text": "Type 1",
+            "status_text": "正常"
+        },
+        {
+            "name": "推荐4",
+            "url": "http://122.228.84.103:7777/api/?key=J3RDcpC4cTTSrpyEeD&url=",
+            "type": "1",
+            "status": "normal",
+            "type_text": "Type 1",
+            "status_text": "正常"
+        },
+        {
+            "name": "推荐5",
+            "url": "http://110.40.61.123:7777/api/?key=5r77owG0IxkmKBXli9&url=",
+            "type": "1",
+            "status": "normal",
+            "type_text": "Type 1",
+            "status_text": "正常"
+        },
+        {
+            "name": "推荐6",
+            "url": "http://115.231.220.36:8801/jx/tvbox/zyy.php?url=",
+            "type": 1,
+            "ext": {
+                "flag": [
+                    "youku",
+                    "qq",
+                    "qiyi",
+                    "bilibili",
+                    "mgtv",
+                    "pptv",
+                    "xigua",
+                    "xiguatv",
+                    "mytv",
+                    "dsj",
+                    "FYNB",
+                    "NBY",
+                    "BTJSON"
+                ],
+                "header": {
+                    "User-Agent": "Dalvik/2.1.0"
+                }
+            }
         },
         {
             "name": "线路1",
@@ -1667,16 +2034,6 @@
         {
             "name": "线路4",
             "type": 0,
-            "url": "https://jx.jsonplayer.com/player/?url=",
-            "ext": {
-                "header": {
-                    "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
-                }
-            }
-        },
-        {
-            "name": "线路5",
-            "type": 0,
             "url": "https://jx.aidouer.net/?url=",
             "ext": {
                 "header": {
@@ -1686,96 +2043,100 @@
             }
         },
         {
-            "name": "线路6",
-            "type": 0,
-            "url": "https://jx.777jiexi.com/player/?url="
-        },
-        {
-            "name": "线路7",
+            "name": "线路5",
             "type": 0,
             "url": "https://www.8090g.cn/?url="
         },
         {
-            "name": "线路8",
+            "name": "线路6",
             "type": 0,
             "url": "https://jx.yangtu.top?url="
         },
         {
-            "name": "线路9",
+            "name": "线路7",
             "type": 0,
             "url": "https://jx.m3u8.tv/jiexi/?url="
         },
         {
-            "name": "线路10",
+            "name": "线路8",
             "type": 0,
             "url": "https://www.ckplayer.vip/jiexi/?url="
         }
     ],
     "rules": [
         {
-            "name": "量子广告",
+            "name": "暴风",
+            "hosts": [
+                "bfzy",
+                "bfbfvip",
+                "bfengbf"
+            ],
+            "regex": [
+                "#EXTINF.*?\\s+.*?adjump.*?\\.ts"
+            ]
+        },
+        {
+            "name": "量子",
             "hosts": [
                 "vip.lz",
                 "hd.lz",
                 ".cdnlz"
             ],
             "regex": [
-                "17.19",
                 "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:7\\.166667,[\\s\\S]*?#EXT-X-DISCONTINUITY",
-                "#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"
+                "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:4\\.066667,[\\s\\S]*?#EXT-X-DISCONTINUITY",
+                "17.19"
             ]
         },
         {
-            "name": "非凡广告",
+            "name": "非凡",
             "hosts": [
                 "vip.ffzy",
-                "hd.ffzy"
+                "hd.ffzy",
+                "super.ffzy"
             ],
             "regex": [
-                "17.99",
                 "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6\\.400000,[\\s\\S]*?#EXT-X-DISCONTINUITY",
-                "#EXTINF.*?\\s+.*?1170(20|32).*?\\.ts\\s+",
-                "#EXTINF.*?\\s+.*?116977.*?\\.ts\\s+"
+                "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6\\.666667,[\\s\\S]*?#EXT-X-DISCONTINUITY",
+                "#EXTINF.*?\\s+.*?1171(057).*?\\.ts",
+                "#EXTINF.*?\\s+.*?6d7b(077).*?\\.ts",
+                "#EXTINF.*?\\s+.*?6718a(403).*?\\.ts",
+                "17.99",
+                "14.45"
             ]
         },
         {
-            "name": "索尼广告",
+            "name": "索尼",
             "hosts": [
                 "suonizy"
             ],
             "regex": [
                 "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:1\\.000000,[\\s\\S]*?#EXT-X-DISCONTINUITY",
-                "#EXTINF.*?\\s+.*?p1ayer.*?\\.ts\\s+",
-                "#EXTINF.*?\\s+.*?\\/video\\/original.*?\\.ts\\s+"
+                "#EXTINF.*?\\s+.*?p1ayer.*?\\.ts",
+                "#EXTINF.*?\\s+.*?\\/video\\/original.*?\\.ts"
             ]
         },
         {
-            "name": "暴风广告",
-            "hosts": [
-                "bfzy",
-                "bfbfvip"
-            ],
-            "regex": [
-                "#EXTINF.*?\\s+.*?adjump.*?\\.ts\\s+"
-            ]
-        },
-        {
-            "name": "星星广告",
-            "hosts": [
-                "aws.ulivetv.net"
-            ],
-            "regex": [
-                "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:8,[\\s\\S]*?#EXT-X-DISCONTINUITY"
-            ]
-        },
-        {
-            "name": "快看广告",
+            "name": "快看",
             "hosts": [
                 "kuaikan"
             ],
             "regex": [
                 "#EXT-X-KEY:METHOD=NONE\\r*\\n*#EXTINF:5,[\\s\\S]*?#EXT-X-DISCONTINUITY",
-                "#EXT-X-KEY:METHOD=NONE\\r*\\n*#EXTINF:2\\.4,[\\s\\S]*?#EXT-X-DISCONTINUITY"
+                "#EXT-X-KEY:METHOD=NONE\\r*\\n*#EXTINF:2\\.4,[\\s\\S]*?#EXT-X-DISCONTINUITY",
+                "#EXT-X-KEY:METHOD=NONE\\r*\\n*#EXTINF:1\\.467,[\\s\\S]*?#EXT-X-DISCONTINUITY"
+            ]
+        },
+        {
+            "name": "一起看广告",
+            "hosts": [
+                "yqk88"
+            ],
+            "regex": [
+                "18.4",
+                "15.1666",
+                "16.5333",
+                "#EXT-X-DISCONTINUITY\\r*\\n*[\\s\\S]*?#EXT-X-CUE-IN"
             ]
         },
         {
@@ -1802,18 +2163,6 @@
                 "裸聊",
                 "新片首发",
                 "UUE29"
-            ]
-        },
-        {
-            "name": "一起看广告",
-            "hosts": [
-                "yqk88"
-            ],
-            "regex": [
-                "18.4",
-                "15.1666",
-                "16.5333",
-                "#EXT-X-DISCONTINUITY\\r*\\n*[\\s\\S]*?#EXT-X-CUE-IN"
             ]
         },
         {
@@ -1894,7 +2243,7 @@
             "type": 0,
             "url": "./zx.txt",
             "playerType": 1,
-            "epg": "https://epg.mxdyeah.top/api/diyp/?ch={name}&date={date}"
+            "epg": "http://epg.112114.eu.org/?ch={name}&date={date}"
         }
     ],
     "flags": [
