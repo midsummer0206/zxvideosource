@@ -1805,8 +1805,8 @@
             }
         },
         {
-            "name": "推荐2",
-            "type": "LX专线",
+            "name": "LX专线",
+            "type": "1",
             "url": "http://llyh.xn--yi7aa.top/api/?key=5b317c16d457b31a3150d87c0a362a9e&url=",
             "flag": [
                 "LXTX"
