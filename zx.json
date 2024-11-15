@@ -4,7 +4,7 @@
     "sites": [
         {
             "key": "豆瓣",
-            "name": "豆瓣｜首页",
+            "name": "仲夏影音 · 理想生活需要一点热爱和心动",
             "type": 3,
             "api": "csp_Douban",
             "searchable": 0
@@ -1981,7 +1981,7 @@
         {
             "name": "直播",
             "type": 0,
-            "url": "https://live.fanmingming.com/tv/m3u/ipv6.m3u",
+            "url": "./ipv6.m3u",
             "playerType": 2
         }
     ],
