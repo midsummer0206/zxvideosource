@@ -5,7 +5,7 @@
     "sites": [
         {
             "key": "豆瓣",
-            "name": "仲夏影音 · 山河远阔，人间星河",
+            "name": "仲夏影音 · 山河远阔，人间星河。",
             "type": 3,
             "api": "csp_Douban",
             "searchable": 0
@@ -73,17 +73,6 @@
             }
         },
         {
-            "key": "菲儿影视",
-            "name": "菲儿｜APP",
-            "type": 3,
-            "api": "csp_AppFerr",
-            "ext": {
-                "url": "https://appcms.freehd.vip",
-                "dataKey": "be5348dfb0c3c283",
-                "dataIv": "5f5449dd14313217"
-            }
-        },
-        {
             "key": "移动",
             "name": "移动｜APP",
             "type": 3,
@@ -106,34 +95,6 @@
             }
         },
         {
-            "key": "水滴",
-            "name": "水滴｜APP",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet2",
-            "ext": {
-                "url": "http://1.94.105.93",
-                "dataKey": "gKdQKLbwhhLp4Ytv",
-                "dataIv": "gKdQKLbwhhLp4Ytv",
-                "deviceId": "",
-                "version": ""
-            }
-        },
-        {
-            "key": "咖啡",
-            "name": "咖啡｜APP",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet2",
-            "ext": {
-                "url": "http://160.202.244.9:6659",
-                "dataKey": "qwertyuiopqwerty",
-                "dataIv": "qwertyuiopqwerty",
-                "deviceId": "",
-                "version": "120"
-            }
-        },
-        {
             "key": "橘猫",
             "name": "橘猫｜APP",
             "type": 3,
@@ -143,20 +104,6 @@
                 "url": "https://qjappcms.jm4k.top",
                 "dataKey": "pBVmysmGX8TsgrQN",
                 "dataIv": "pBVmysmGX8TsgrQN",
-                "deviceId": "",
-                "version": "120"
-            }
-        },
-        {
-            "key": "诺雪",
-            "name": "诺雪｜APP",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet2",
-            "ext": {
-                "url": "https://qjappcms.rx4k.top",
-                "dataKey": "ZX10ysTYZWtIJCTU",
-                "dataIv": "ZX10ysTYZWtIJCTU",
                 "deviceId": "",
                 "version": "120"
             }
@@ -176,17 +123,45 @@
             }
         },
         {
-            "key": "麻花",
-            "name": "麻花｜APP",
+            "key": "榴莲",
+            "name": "榴莲｜APP",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet2",
+            "ext": {
+                "url": "https://qjappcms.ll4k.xyz",
+                "dataKey": "1yGA85sJ5STtE7uj",
+                "dataIv": "1yGA85sJ5STtE7uj",
+                "deviceId": "",
+                "version": "50000"
+            }
+        },
+        {
+            "key": "桃子",
+            "name": "桃子｜APP",
             "type": 3,
             "quickSearch": 1,
             "api": "csp_AppGet",
             "ext": {
-                "url": "http://49.235.114.19:130",
-                "dataKey": "q7gj4f9br3fls6nh",
-                "dataIv": "q7gj4f9br3fls6nh",
-                "deviceId": "2112fc5eac600314ba95c4d65da9286b3",
-                "version": "700"
+                "url": "https://appcms.tzys.xyz",
+                "dataKey": "KL6vlZkw6WL5x90U",
+                "dataIv": "KL6vlZkw6WL5x90U",
+                "deviceId": "4b4c36766c5a6b7736574c3578393055",
+                "version": "119"
+            }
+        },
+        {
+            "key": "魔方",
+            "name": "魔方｜APP",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "https://mfsp33.top",
+                "dataKey": "1234567887654321",
+                "dataIv": "1234567887654321",
+                "deviceId": "",
+                "version": ""
             }
         },
         {
@@ -199,20 +174,6 @@
                 "url": "https://appcms.htsp4k.top",
                 "dataKey": "7CYQQzwchRQpHCOj",
                 "dataIv": "7CYQQzwchRQpHCOj",
-                "deviceId": "",
-                "version": ""
-            }
-        },
-        {
-            "key": "晓晓",
-            "name": "晓晓｜APP",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "https://ys.ewo.asia",
-                "dataKey": "Z0qTnwyLAJCtuIkI",
-                "dataIv": "Z0qTnwyLAJCtuIkI",
                 "deviceId": "",
                 "version": ""
             }
@@ -255,20 +216,6 @@
                 "url": "https://www.guahd.com",
                 "dataKey": "f2A7D4B9E8C16531",
                 "dataIv": "f2A7D4B9E8C16531",
-                "deviceId": "",
-                "version": ""
-            }
-        },
-        {
-            "key": "忍者",
-            "name": "忍者｜APP",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "https://mfxs123.sbs",
-                "dataKey": "1234567887654321",
-                "dataIv": "1234567887654321",
                 "deviceId": "",
                 "version": ""
             }
@@ -358,20 +305,6 @@
             }
         },
         {
-            "key": "木叶",
-            "name": "木叶｜APP",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "http://46.203.125.54:7070",
-                "dataKey": "RuN9LRvwTRgpQnpK",
-                "dataIv": "RuN9LRvwTRgpQnpK",
-                "deviceId": "",
-                "version": "547"
-            }
-        },
-        {
             "key": "米兔",
             "name": "米兔｜APP",
             "type": 3,
@@ -397,20 +330,6 @@
                 "dataIv": "ENonBHeVBoYZhVUV",
                 "deviceId": "298e5fe29c74b35aabb9836ee2f6f449f",
                 "version": "166"
-            }
-        },
-        {
-            "key": "悠悠",
-            "name": "悠悠｜APP",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "http://46.203.125.54:7070",
-                "dataKey": "RuN9LRvwTRgpQnpK",
-                "dataIv": "RuN9LRvwTRgpQnpK",
-                "deviceId": "298e5fe29c74b35aabb9836ee2f6f449f",
-                "version": "547"
             }
         },
         {
@@ -470,6 +389,34 @@
             }
         },
         {
+            "key": "晚枫",
+            "name": "晚枫｜APP",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "http://111.180.202.216:999",
+                "dataKey": "fjhndgbjidfhgjsd",
+                "dataIv": "fjhndgbjidfhgjsd",
+                "deviceId": "2a7baa6ca6f46308cbf1d939bab0586f3",
+                "version": "120"
+            }
+        },
+        {
+            "key": "诺映",
+            "name": "诺映｜APP",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "https://www.noad.top",
+                "dataKey": "708FA298F0855840",
+                "dataIv": "708FA298F0855840",
+                "deviceId": "2129ec9e6e5703cb0aeeddd79554e38f8",
+                "version": "103"
+            }
+        },
+        {
             "key": "趣看",
             "name": "趣看｜APP",
             "type": 3,
@@ -486,9 +433,18 @@
             "key": "哔哩视频",
             "name": "哔哩｜视频",
             "type": 3,
-            "api": "http://zxvideo.midsum.com/zxvideo/py/哔哩视频.py",
+            "api": "csp_BiliYS",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
+            "changeable": 0,
+            "style": {
+                "type": "rect",
+                "ratio": 1.433
+            },
             "ext": {
-                "json": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
+                "json": "http://zxvideo.midsum.com/zxvideo/json/哔哩视频.json",
+                "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
             }
         },
         {
@@ -760,34 +716,52 @@
             }
         },
         {
-            "key": "爱搜UC",
-            "name": "爱UC｜4K弹幕",
+            "key": "校长",
+            "name": "校长｜4K弹幕",
             "type": 3,
             "api": "http://zxvideo.midsum.com/zxvideo/js/cloud.min.js",
-            "ext": "http://zxvideo.midsum.com/zxvideo/js/爱搜UC.js",
+            "ext": "http://zxvideo.midsum.com/zxvideo/js/校长.js",
             "style": {
                 "type": "list"
             }
         },
         {
-            "key": "爱搜Quark",
-            "name": "爱Quark｜4K弹幕",
+            "key": "天堂",
+            "name": "天堂｜4K弹幕",
             "type": 3,
             "api": "http://zxvideo.midsum.com/zxvideo/js/cloud.min.js",
-            "ext": "http://zxvideo.midsum.com/zxvideo/js/爱搜Quark.js",
+            "ext": "http://zxvideo.midsum.com/zxvideo/js/天堂.js",
             "style": {
                 "type": "list"
             }
         },
         {
-            "key": "爱搜Baidu",
-            "name": "爱Baidu｜4K弹幕",
+            "key": "人人电影网",
+            "name": "人人｜4K弹幕",
             "type": 3,
             "api": "http://zxvideo.midsum.com/zxvideo/js/cloud.min.js",
-            "ext": "http://zxvideo.midsum.com/zxvideo/js/爱搜Baidu.js",
+            "ext": "http://zxvideo.midsum.com/zxvideo/js/人人电影网.js",
             "style": {
                 "type": "list"
             }
+        },
+        {
+            "key": "爱搜",
+            "name": "爱搜｜4K弹幕",
+            "type": 3,
+            "api": "http://zxvideo.midsum.com/zxvideo/js/cloud.min.js",
+            "ext": "http://zxvideo.midsum.com/zxvideo/js/爱搜.js",
+            "style": {
+                "type": "list"
+            }
+        },
+        {
+            "key": "糖果",
+            "name": "糖果｜搜索",
+            "type": 3,
+            "api": "csp_TGSou",
+            "searchable": 1,
+            "changeable": 0
         },
         {
             "key": "聚搜",
@@ -814,7 +788,7 @@
             "name": "人人｜搜索",
             "type": 3,
             "api": "http://zxvideo.midsum.com/zxvideo/js/cloud.min.js",
-            "ext": "http://zxvideo.midsum.com/zxvideo/js/人人.js",
+            "ext": "http://zxvideo.midsum.com/zxvideo/js/人人分享站.js",
             "style": {
                 "type": "list"
             }
@@ -877,24 +851,6 @@
             "ext": "http://zxvideo.midsum.com/zxvideo/XYQHiker/短剧屋.json"
         },
         {
-            "key": "满分",
-            "name": "满分｜影视",
-            "type": 3,
-            "api": "csp_AppYs",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "http://111.173.115.215:9118/icciu_api.php/v1.vod"
-        },
-        {
-            "key": "顾我",
-            "name": "顾我｜影视",
-            "type": 3,
-            "playerType": 2,
-            "api": "csp_AppYsV2",
-            "ext": "http://121.62.21.14:520/api.php/app/"
-        },
-        {
             "key": "起点",
             "name": "起点｜影视",
             "type": 3,
@@ -903,16 +859,6 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "http://172.83.156.150:1010/api.php/app/"
-        },
-        {
-            "key": "好感",
-            "name": "好感｜影视",
-            "type": 3,
-            "api": "csp_AppYsV2",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "https://cs.hgyx.vip/api2/api.php/app/"
         },
         {
             "key": "金牌影视",
@@ -924,7 +870,7 @@
             "filterable": 1,
             "playerType": 2,
             "ext": {
-                "site": "https://www.hkybqufgh.com,https://www.sizhengxt.com,https://0996zp.com,https://9zhoukj.com/,https://www.sizhengxt.com,https://www.tjrongze.com,https://www.jiabaide.cn,https://cqzuoer.com"
+                "site": "https://m.hkybqufgh.com,https://m.sizhengxt.com,https://m.9zhoukj.com,https://m.sizhengxt.com,https://m.jiabaide.cn"
             }
         },
         {
@@ -939,28 +885,6 @@
             "playerType": 2
         },
         {
-            "key": "美帕影视",
-            "name": "美帕｜影视",
-            "type": 3,
-            "api": "http://zxvideo.midsum.com/zxvideo/py/美帕影视.py",
-            "searchable": 1,
-            "changeable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "playerType": 2
-        },
-        {
-            "key": "快看",
-            "name": "快看｜影视",
-            "type": 3,
-            "api": "csp_AppYsV2",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "changeable": 1,
-            "ext": "http://kkwk123.top/api.php/app/"
-        },
-        {
             "key": "厂长影视",
             "name": "厂长｜影视",
             "type": 3,
@@ -970,12 +894,6 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "https://www.czzymovie.com/"
-        },
-        {
-            "key": "私人影视",
-            "name": "私人｜影视",
-            "type": 3,
-            "api": "csp_Siren"
         },
         {
             "key": "云播影视",
@@ -1022,24 +940,10 @@
             "ext": "https://v.wetv.wang"
         },
         {
-            "key": "攻阁影视",
-            "name": "攻阁｜影视",
-            "type": 3,
-            "playerType": "2",
-            "api": "csp_Lggys"
-        },
-        {
             "key": "鸭梨影视",
             "name": "鸭梨｜影视",
             "type": 3,
             "api": "csp_KmeiJu"
-        },
-        {
-            "key": "绝对影视",
-            "name": "绝对｜影视",
-            "type": 3,
-            "api": "csp_FourK",
-            "ext": "https://www.4kvm.net"
         },
         {
             "key": "白白影视",
@@ -1047,13 +951,6 @@
             "type": 3,
             "api": "csp_SuBaiBai",
             "ext": "https://www.subaibai.com"
-        },
-        {
-            "key": "免费影视",
-            "name": "️免费｜影视",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_FreeOk"
         },
         {
             "key": "低端影视",
@@ -1108,13 +1005,6 @@
             "filterable": 1
         },
         {
-            "key": "可可影视",
-            "name": "可可｜影视",
-            "type": 3,
-            "api": "csp_HBPQ",
-            "ext": "http://zxvideo.midsum.com/zxvideo/XBPQ/可可影视.json"
-        },
-        {
             "key": "海纳影视",
             "name": "海纳｜影视",
             "type": 3,
@@ -1150,13 +1040,6 @@
             "ext": "http://zxvideo.midsum.com/zxvideo/XBPQ/骚火影视.json"
         },
         {
-            "key": "农民影视",
-            "name": "农民｜影视",
-            "type": 3,
-            "api": "csp_HBPQ",
-            "ext": "http://zxvideo.midsum.com/zxvideo/XBPQ/农民影视.json"
-        },
-        {
             "key": "七点影视",
             "name": "七点｜影视",
             "type": 3,
@@ -1178,54 +1061,14 @@
             "ext": "http://zxvideo.midsum.com/zxvideo/XBPQ/三四影视.json"
         },
         {
-            "key": "一起影视",
-            "name": "一起｜影视",
+            "key": "农民影视",
+            "name": "农民｜影视",
             "type": 3,
-            "api": "csp_AppFree4K",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0,
-            "ext": "w7TCmsONw6LDrsKYwoXCosKcwqDCrcKawqDDosKnwqTCoMKjwrPCosKpw5rDqsKjwpPCncKjwqfDmcOsw57Dn8KbwpRewqbDosOjwqHCpcKaWnvClcKpwqDCrcKawqDDnMKYZWNkwrHDl8Ogw5vCqsKWY8KTYsKxwqbCocKlwppaecKmV8KzwpPCocKuw6BoZGRpw53Dl8Krwq3CrWRjYmHCsMKawqbCmcKhdcKRwp7Cm8OHw5TDsMKgwrRTV+ecpOaTncKgwp/CmsKgw4rClMKiwqPClcOOw6XDpsKgwrRTV8KYwqTDrcOjw63Cs8KpYsKRwqDCoMOvwqTCqMOfw6zCmMKVwpjClMKnw6nDo8OpwqnCncKjwp/CnsKnw6PDosOpwrnCqMKiwpxtwqDCn8KawqDCvsKUwp59wqXDjsOlw6bCoMK0U1fCmMKkw63Do8OtwrPCqWLClMKdXsOvw5zDnsOzwqjClMKjwpnCkcKow5fDp8Okw69ib8KRwpPCtsOXw6fCn8OuwqLCm8KVwp7CtsOEw4PDhcK8dnh6dsOMwr/DkcOPw4B4e8KCVsOuw6XDpsK2wqFfUFfClMOew5bDrMOyw6rCp3vClcKpwqDCrcKawqDDscKowqnCmWbCr8KpwqHDtg=="
-        },
-        {
-            "key": "耐看影视",
-            "name": "耐看｜影视",
-            "type": 3,
-            "api": "csp_WebNK",
+            "api": "csp_XYQHiker",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "w7TClcONw6LDrsKYwoXCosKcwpvCrcKcw6HDrsKnwqDCo2rCqMKiw7HDsMOxYcKewpvClMOvw5fCqMOmw59VXFLCpMOiw6PCnMKzwpzCjuWGtemEmOaPleWRnMKf5Yem5L6Q5ZGxbeW+oeintui1tOa8ieetjMOXwpvDtw=="
-        },
-        {
-            "key": "真心影视",
-            "name": "真心｜影视",
-            "type": 3,
-            "api": "csp_WebGZ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
-            "key": "思古影视",
-            "name": "思古｜影视",
-            "type": 3,
-            "api": "http://zxvideo.midsum.com/zxvideo/js/drpy2.min.js",
-            "ext": "http://zxvideo.midsum.com/zxvideo/js/思古影视.js"
-        },
-        {
-            "key": "魔力高清",
-            "name": "魔力｜影视",
-            "type": 3,
-            "api": "http://zxvideo.midsum.com/zxvideo/js/drpy2.min.js",
-            "ext": "http://zxvideo.midsum.com/zxvideo/js/魔力高清.js"
-        },
-        {
-            "key": "碟调影视",
-            "name": "碟调｜影视",
-            "type": 3,
-            "api": "http://zxvideo.midsum.com/zxvideo/js/drpy2.min.js",
-            "ext": "http://zxvideo.midsum.com/zxvideo/js/碟调影视.js"
+            "ext": "http://zxvideo.midsum.com/zxvideo/XYQHiker/农民影视.json"
         },
         {
             "key": "盒子影视",
@@ -1239,7 +1082,7 @@
         },
         {
             "key": "电影牛",
-            "name": "电影牛｜影视",
+            "name": "影牛｜影视",
             "type": 3,
             "api": "csp_XYQHiker",
             "searchable": 1,
@@ -1249,17 +1092,10 @@
         },
         {
             "key": "剧圈圈",
-            "name": "剧圈圈｜影视",
+            "name": "剧圈｜影视",
             "type": 3,
             "api": "http://zxvideo.midsum.com/zxvideo/js/drpy2.min.js",
             "ext": "http://zxvideo.midsum.com/zxvideo/js/剧圈圈.js"
-        },
-        {
-            "key": "看了么",
-            "name": "看了么｜影视",
-            "type": 3,
-            "api": "http://zxvideo.midsum.com/zxvideo/js/drpy2.min.js",
-            "ext": "http://zxvideo.midsum.com/zxvideo/js/看了么.js"
         },
         {
             "key": "1905",
@@ -1892,7 +1728,7 @@
             }
         },
         {
-            "name": "QD4K",
+            "name": "巧计",
             "type": 1,
             "url": "https://zy.qiaoji8.com/xiafan.php?url=",
             "ext": {
