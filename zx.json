@@ -1,11 +1,11 @@
 {
-    "spider": "http://zxvideo.midsum.com/zxvideo/spider.jar",
+    "spider": "http://zxvideo.midsum.com/zxvideo/DB/spider.jar",
     "wallpaper": "http://bobohome.ignorelist.com:20247/bing",
-    "logo": "http://zxvideo.midsum.com/zxvideo/logo.png",
+    "logo": "http://zxvideo.midsum.com/zxvideo/DB/logo2.png",
     "sites": [
         {
             "key": "豆瓣",
-            "name": "仲夏影音 · 快乐开始具像化",
+            "name": "仲夏影音 · 平淡日子里泛着光",
             "type": 3,
             "api": "csp_Douban",
             "searchable": 0
@@ -105,6 +105,15 @@
             "ext": {
                 "host": "https://173220859-1333208043.cos.ap-shanghai.myqcloud.com/1.json",
                 "ver": 2
+            }
+        },
+        {
+            "key": "木瓜",
+            "name": "木瓜｜APP",
+            "type": 3,
+            "api": "csp_AppFox",
+            "ext": {
+                "host": "http://www.yezitv.top"
             }
         },
         {
@@ -261,6 +270,32 @@
                 "dataKey": "staraugust123456",
                 "dataIv": "staraugust123456",
                 "version": "120"
+            }
+        },
+        {
+            "key": "火花",
+            "name": "火花｜APP",
+            "type": 3,
+            "searchable": 1,
+            "changeable": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "site": "http://php.itcxo.cn/txt/1.txt",
+                "dataKey": "PoiUytRedFghjklm",
+                "dataIv": "PoiUytRedFghjklm"
+            }
+        },
+        {
+            "key": "椰子",
+            "name": "椰子｜APP",
+            "type": 3,
+            "searchable": 1,
+            "changeable": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "http://103.109.20.117:6699",
+                "dataKey": "xxm9N4P9rS2zjdyz",
+                "dataIv": "xxm9N4P9rS2zjdyz"
             }
         },
         {
@@ -612,7 +647,7 @@
                 "ratio": 1.433
             },
             "ext": {
-                "json": "http://zxvideo.midsum.com/zxvideo/json/哔哩视频.json",
+                "json": "http://zxvideo.midsum.com/zxvideo/DB/json/哔哩视频.json",
                 "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
             }
         },
@@ -620,29 +655,29 @@
             "key": "腾讯视频",
             "name": "腾讯｜视频",
             "type": 3,
-            "api": "http://zxvideo.midsum.com/zxvideo/js/drpy2.min.js",
-            "ext": "http://zxvideo.midsum.com/zxvideo/js/腾讯视频.js"
+            "api": "http://zxvideo.midsum.com/zxvideo/DB/js/drpy2.min.js",
+            "ext": "http://zxvideo.midsum.com/zxvideo/DB/js/腾讯视频.js"
         },
         {
             "key": "优酷视频",
             "name": "优酷｜视频",
             "type": 3,
-            "api": "http://zxvideo.midsum.com/zxvideo/js/drpy2.min.js",
-            "ext": "http://zxvideo.midsum.com/zxvideo/js/优酷视频.js"
+            "api": "http://zxvideo.midsum.com/zxvideo/DB/js/drpy2.min.js",
+            "ext": "http://zxvideo.midsum.com/zxvideo/DB/js/优酷视频.js"
         },
         {
             "key": "芒果视频",
             "name": "芒果｜视频",
             "type": 3,
-            "api": "http://zxvideo.midsum.com/zxvideo/js/drpy2.min.js",
-            "ext": "http://zxvideo.midsum.com/zxvideo/js/芒果视频.js"
+            "api": "http://zxvideo.midsum.com/zxvideo/DB/js/drpy2.min.js",
+            "ext": "http://zxvideo.midsum.com/zxvideo/DB/js/芒果视频.js"
         },
         {
             "key": "爱奇艺",
             "name": "爱奇艺｜视频",
             "type": 3,
-            "api": "http://zxvideo.midsum.com/zxvideo/js/drpy2.min.js",
-            "ext": "http://zxvideo.midsum.com/zxvideo/js/爱奇艺.js"
+            "api": "http://zxvideo.midsum.com/zxvideo/DB/js/drpy2.min.js",
+            "ext": "http://zxvideo.midsum.com/zxvideo/DB/js/爱奇艺.js"
         },
         {
             "key": "三六零",
@@ -830,7 +865,7 @@
                 "type": "list",
                 "ratio": 1.433
             },
-            "ext": "http://zxvideo.midsum.com/zxvideo/json/雷鲸.json"
+            "ext": "http://zxvideo.midsum.com/zxvideo/DB/json/雷鲸.json"
         },
         {
             "key": "海绵",
@@ -845,7 +880,7 @@
                 "type": "list",
                 "ratio": 1.433
             },
-            "ext": "http://zxvideo.midsum.com/zxvideo/json/海绵.json"
+            "ext": "http://zxvideo.midsum.com/zxvideo/DB/json/海绵.json"
         },
         {
             "key": "夸父",
@@ -860,7 +895,7 @@
                 "type": "list",
                 "ratio": 1.433
             },
-            "ext": "http://zxvideo.midsum.com/zxvideo/json/夸父.json"
+            "ext": "http://zxvideo.midsum.com/zxvideo/DB/json/夸父.json"
         },
         {
             "key": "盘它",
@@ -888,33 +923,19 @@
                 "type": "list",
                 "ratio": 1.433
             },
-            "ext": "http://zxvideo.midsum.com/zxvideo/json/123.json"
+            "ext": "http://zxvideo.midsum.com/zxvideo/DB/json/123.json"
+        },
+        {
+            "key": "人人",
+            "name": "人人｜4K",
+            "type": 3,
+            "api": "csp_RenRen"
         },
         {
             "key": "即刻",
             "name": "即刻｜4K",
             "type": 3,
             "api": "csp_Jike",
-            "style": {
-                "type": "list"
-            }
-        },
-        {
-            "key": "双星",
-            "name": "双星｜4K",
-            "type": 3,
-            "api": "http://zxvideo.midsum.com/zxvideo/js/drpy2.min.js",
-            "ext": "http://zxvideo.midsum.com/zxvideo/js/双星.js",
-            "style": {
-                "type": "list"
-            }
-        },
-        {
-            "key": "人人",
-            "name": "人人｜4K",
-            "type": 3,
-            "api": "http://zxvideo.midsum.com/zxvideo/js/drpy2.min.js",
-            "ext": "http://zxvideo.midsum.com/zxvideo/js/人人电影网.js",
             "style": {
                 "type": "list"
             }
@@ -933,7 +954,7 @@
             "key": "星芽短剧",
             "name": "星芽｜短剧",
             "type": 3,
-            "api": "http://zxvideo.midsum.com/zxvideo/py/星芽短剧.py",
+            "api": "http://zxvideo.midsum.com/zxvideo/DB/py/星芽短剧.py",
             "searchable": 1,
             "changeable": 1,
             "quickSearch": 1,
@@ -943,7 +964,7 @@
             "key": "甜圈短剧",
             "name": "甜圈｜短剧",
             "type": 3,
-            "api": "http://zxvideo.midsum.com/zxvideo/py/甜圈短剧.py",
+            "api": "http://zxvideo.midsum.com/zxvideo/DB/py/甜圈短剧.py",
             "searchable": 1,
             "changeable": 1,
             "quickSearch": 1,
@@ -953,7 +974,7 @@
             "key": "剧王短剧",
             "name": "剧王｜短剧",
             "type": 3,
-            "api": "http://zxvideo.midsum.com/zxvideo/py/剧王短剧.py",
+            "api": "http://zxvideo.midsum.com/zxvideo/DB/py/剧王短剧.py",
             "searchable": 1,
             "changeable": 1,
             "quickSearch": 1,
@@ -964,7 +985,7 @@
             "name": "番茄｜短剧",
             "type": 3,
             "api": "csp_XBPQ",
-            "ext": "http://zxvideo.midsum.com/zxvideo/XBPQ/番茄短剧.json"
+            "ext": "http://zxvideo.midsum.com/zxvideo/DB/XBPQ/番茄短剧.json"
         },
         {
             "key": "厂长影视",
@@ -1056,42 +1077,42 @@
             "name": "莫小｜影视",
             "type": 3,
             "api": "csp_XBPQ",
-            "ext": "http://zxvideo.midsum.com/zxvideo/XBPQ/莫小影视.json"
+            "ext": "http://zxvideo.midsum.com/zxvideo/DB/XBPQ/莫小影视.json"
         },
         {
             "key": "明星影视",
             "name": "明星｜影视",
             "type": 3,
             "api": "csp_XBPQ",
-            "ext": "http://zxvideo.midsum.com/zxvideo/XBPQ/明星影视.json"
+            "ext": "http://zxvideo.midsum.com/zxvideo/DB/XBPQ/明星影视.json"
         },
         {
             "key": "面包影视",
             "name": "面包｜影视",
             "type": 3,
             "api": "csp_XBPQ",
-            "ext": "http://zxvideo.midsum.com/zxvideo/XBPQ/面包影视.json"
+            "ext": "http://zxvideo.midsum.com/zxvideo/DB/XBPQ/面包影视.json"
         },
         {
             "key": "永乐影视",
             "name": "永乐｜影视",
             "type": 3,
             "api": "csp_XBPQ",
-            "ext": "http://zxvideo.midsum.com/zxvideo/XBPQ/永乐影视.json"
+            "ext": "http://zxvideo.midsum.com/zxvideo/DB/XBPQ/永乐影视.json"
         },
         {
             "key": "三九影视",
             "name": "三九｜影视",
             "type": 3,
             "api": "csp_XBPQ",
-            "ext": "http://zxvideo.midsum.com/zxvideo/XBPQ/三九影视.json"
+            "ext": "http://zxvideo.midsum.com/zxvideo/DB/XBPQ/三九影视.json"
         },
         {
             "key": "采集之王",
             "name": "采集｜合集",
             "type": 3,
-            "api": "http://zxvideo.midsum.com/zxvideo/js/drpy2.min.js",
-            "ext": "http://zxvideo.midsum.com/zxvideo/js/采集之王.js?type=url&params=.http://zxvideo.midsum.com/zxvideo/json/采集静态.json$1$1"
+            "api": "http://zxvideo.midsum.com/zxvideo/DB/js/drpy2.min.js",
+            "ext": "http://zxvideo.midsum.com/zxvideo/DB/js/采集之王.js?type=url&params=.http://zxvideo.midsum.com/zxvideo/DB/json/采集静态.json$1$1"
         },
         {
             "key": "1905",
@@ -1110,21 +1131,21 @@
             "style": {
                 "type": "list"
             },
-            "ext": "http://zxvideo.midsum.com/zxvideo/XBPQ/哆啦新番社.json"
+            "ext": "http://zxvideo.midsum.com/zxvideo/DB/XBPQ/哆啦新番社.json"
         },
         {
             "key": "Anime1",
             "name": "A1｜动漫",
             "type": 3,
-            "api": "http://zxvideo.midsum.com/zxvideo/js/drpy2.min.js",
-            "ext": "http://zxvideo.midsum.com/zxvideo/js/Anime1.js"
+            "api": "http://zxvideo.midsum.com/zxvideo/DB/js/drpy2.min.js",
+            "ext": "http://zxvideo.midsum.com/zxvideo/DB/js/Anime1.js"
         },
         {
             "key": "NT动漫",
             "name": "NT｜动漫",
             "type": 3,
-            "api": "http://zxvideo.midsum.com/zxvideo/js/drpy2.min.js",
-            "ext": "http://zxvideo.midsum.com/zxvideo/js/NT动漫.js"
+            "api": "http://zxvideo.midsum.com/zxvideo/DB/js/drpy2.min.js",
+            "ext": "http://zxvideo.midsum.com/zxvideo/DB/js/NT动漫.js"
         },
         {
             "key": "漫国动漫",
@@ -1252,56 +1273,56 @@
             "name": "樱花｜动漫",
             "type": 3,
             "api": "csp_XBPQ",
-            "ext": "http://zxvideo.midsum.com/zxvideo/XBPQ/樱花动漫.json"
+            "ext": "http://zxvideo.midsum.com/zxvideo/DB/XBPQ/樱花动漫.json"
         },
         {
             "key": "巴士动漫",
             "name": "巴士｜动漫",
             "type": 3,
             "api": "csp_XYQHiker",
-            "ext": "http://zxvideo.midsum.com/zxvideo/XYQHiker/巴士动漫.json"
+            "ext": "http://zxvideo.midsum.com/zxvideo/DB/XYQHiker/巴士动漫.json"
         },
         {
             "key": "好看动漫",
             "name": "好看｜动漫",
             "type": 3,
-            "api": "http://zxvideo.midsum.com/zxvideo/js/drpy2.min.js",
-            "ext": "http://zxvideo.midsum.com/zxvideo/js/好看动漫.js"
+            "api": "http://zxvideo.midsum.com/zxvideo/DB/js/drpy2.min.js",
+            "ext": "http://zxvideo.midsum.com/zxvideo/DB/js/好看动漫.js"
         },
         {
             "key": "花子动漫",
             "name": "花子｜动漫",
             "type": 3,
-            "api": "http://zxvideo.midsum.com/zxvideo/js/drpy2.min.js",
-            "ext": "http://zxvideo.midsum.com/zxvideo/js/花子动漫.js"
+            "api": "http://zxvideo.midsum.com/zxvideo/DB/js/drpy2.min.js",
+            "ext": "http://zxvideo.midsum.com/zxvideo/DB/js/花子动漫.js"
         },
         {
             "key": "爱动漫",
             "name": "爱动漫｜动漫",
             "type": 3,
-            "api": "http://zxvideo.midsum.com/zxvideo/js/drpy2.min.js",
-            "ext": "http://zxvideo.midsum.com/zxvideo/js/爱动漫.js"
+            "api": "http://zxvideo.midsum.com/zxvideo/DB/js/drpy2.min.js",
+            "ext": "http://zxvideo.midsum.com/zxvideo/DB/js/爱动漫.js"
         },
         {
             "key": "路漫漫",
             "name": "路漫漫｜动漫",
             "type": 3,
-            "api": "http://zxvideo.midsum.com/zxvideo/js/drpy2.min.js",
-            "ext": "http://zxvideo.midsum.com/zxvideo/js/路漫漫.js"
+            "api": "http://zxvideo.midsum.com/zxvideo/DB/js/drpy2.min.js",
+            "ext": "http://zxvideo.midsum.com/zxvideo/DB/js/路漫漫.js"
         },
         {
             "key": "去看吧",
             "name": "去看吧｜动漫",
             "type": 3,
-            "api": "http://zxvideo.midsum.com/zxvideo/js/drpy2.min.js",
-            "ext": "http://zxvideo.midsum.com/zxvideo/js/去看吧.js"
+            "api": "http://zxvideo.midsum.com/zxvideo/DB/js/drpy2.min.js",
+            "ext": "http://zxvideo.midsum.com/zxvideo/DB/js/去看吧.js"
         },
         {
             "key": "异世界",
             "name": "异世界｜动漫",
             "type": 3,
-            "api": "http://zxvideo.midsum.com/zxvideo/js/drpy2.min.js",
-            "ext": "http://zxvideo.midsum.com/zxvideo/js/异世界.js"
+            "api": "http://zxvideo.midsum.com/zxvideo/DB/js/drpy2.min.js",
+            "ext": "http://zxvideo.midsum.com/zxvideo/DB/js/异世界.js"
         },
         {
             "key": "荐片",
@@ -1338,7 +1359,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "http://zxvideo.midsum.com/zxvideo/XBPQ/雪花.json"
+            "ext": "http://zxvideo.midsum.com/zxvideo/DB/XBPQ/雪花.json"
         },
         {
             "key": "80S",
@@ -1386,7 +1407,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "http://zxvideo.midsum.com/zxvideo/XYQHiker/电影港.json"
+            "ext": "http://zxvideo.midsum.com/zxvideo/DB/XYQHiker/电影港.json"
         },
         {
             "key": "狐狸君",
@@ -1397,7 +1418,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "http://zxvideo.midsum.com/zxvideo/XBPQ/狐狸君.json"
+            "ext": "http://zxvideo.midsum.com/zxvideo/DB/XBPQ/狐狸君.json"
         },
         {
             "key": "Mp4电影",
@@ -1438,7 +1459,7 @@
                 "type": "list",
                 "ratio": 1.433
             },
-            "ext": "http://zxvideo.midsum.com/zxvideo/json/aliShare.json"
+            "ext": "http://zxvideo.midsum.com/zxvideo/DB/json/aliShare.json"
         },
         {
             "key": "夸克云盘",
@@ -1452,7 +1473,7 @@
                 "type": "list",
                 "ratio": 1.433
             },
-            "ext": "http://zxvideo.midsum.com/zxvideo/json/quarkShare.json"
+            "ext": "http://zxvideo.midsum.com/zxvideo/DB/json/quarkShare.json"
         },
         {
             "key": "UC云盘",
@@ -1466,7 +1487,7 @@
                 "type": "list",
                 "ratio": 1.433
             },
-            "ext": "http://zxvideo.midsum.com/zxvideo/json/ucShare.json"
+            "ext": "http://zxvideo.midsum.com/zxvideo/DB/json/ucShare.json"
         },
         {
             "key": "百度云盘",
@@ -1587,16 +1608,34 @@
             "api": "csp_MiSou"
         },
         {
-            "key": "酷乐搜索",
+            "key": "酷乐搜l",
             "name": "酷乐｜搜索",
             "type": 3,
             "api": "csp_KuLe"
         },
         {
-            "key": "鬼鬼搜索",
+            "key": "鬼鬼",
             "name": "鬼鬼｜搜索",
             "type": 3,
             "api": "csp_GuiGui"
+        },
+        {
+            "key": "混合",
+            "name": "混合｜搜索",
+            "type": 3,
+            "api": "csp_HunHePan"
+        },
+        {
+            "key": "兄弟",
+            "name": "兄弟｜搜索",
+            "type": 3,
+            "api": "csp_XiongDiPan"
+        },
+        {
+            "key": "趣盘",
+            "name": "趣盘｜搜索",
+            "type": 3,
+            "api": "csp_QuPanSo"
         },
         {
             "key": "AList",
@@ -1609,7 +1648,7 @@
             "style": {
                 "type": "list"
             },
-            "ext": "http://zxvideo.midsum.com/zxvideo/json/alist.json"
+            "ext": "http://zxvideo.midsum.com/zxvideo/DB/json/alist.json"
         },
         {
             "key": "88看球",
@@ -1637,13 +1676,13 @@
             "key": "网络直播",
             "name": "网络｜直播",
             "type": 3,
-            "api": "http://zxvideo.midsum.com/zxvideo/py/网络直播.py"
+            "api": "http://zxvideo.midsum.com/zxvideo/DB/py/网络直播.py"
         },
         {
             "key": "哔哩直播",
             "name": "哔哩｜直播",
             "type": 3,
-            "api": "http://zxvideo.midsum.com/zxvideo/py/哔哩直播.py"
+            "api": "http://zxvideo.midsum.com/zxvideo/DB/py/哔哩直播.py"
         },
         {
             "key": "哔哩合集",
@@ -1659,7 +1698,7 @@
                 "ratio": 1.433
             },
             "ext": {
-                "json": "http://zxvideo.midsum.com/zxvideo/json/哔哩合集.json",
+                "json": "http://zxvideo.midsum.com/zxvideo/DB/json/哔哩合集.json",
                 "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
             }
         },
@@ -1673,7 +1712,7 @@
             "filterable": 0,
             "ext": {
                 "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt",
-                "json": "http://zxvideo.midsum.com/zxvideo/json/哔哩哔哩演唱会.json"
+                "json": "http://zxvideo.midsum.com/zxvideo/DB/json/哔哩哔哩演唱会.json"
             },
             "style": {
                 "type": "rect",
@@ -1690,7 +1729,7 @@
             "filterable": 0,
             "ext": {
                 "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt",
-                "json": "http://zxvideo.midsum.com/zxvideo/json/哔哩哔哩听书.json"
+                "json": "http://zxvideo.midsum.com/zxvideo/DB/json/哔哩哔哩听书.json"
             },
             "style": {
                 "type": "rect",
@@ -1707,7 +1746,7 @@
             "filterable": 0,
             "ext": {
                 "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt",
-                "json": "http://zxvideo.midsum.com/zxvideo/json/哔哩哔哩相声.json"
+                "json": "http://zxvideo.midsum.com/zxvideo/DB/json/哔哩哔哩相声.json"
             },
             "style": {
                 "type": "rect",
@@ -1724,7 +1763,7 @@
             "filterable": 0,
             "ext": {
                 "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt",
-                "json": "http://zxvideo.midsum.com/zxvideo/json/哔哩哔哩小品.json"
+                "json": "http://zxvideo.midsum.com/zxvideo/DB/json/哔哩哔哩小品.json"
             },
             "style": {
                 "type": "rect",
@@ -1741,7 +1780,7 @@
             "filterable": 0,
             "ext": {
                 "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt",
-                "json": "http://zxvideo.midsum.com/zxvideo/json/哔哩哔哩戏曲.json"
+                "json": "http://zxvideo.midsum.com/zxvideo/DB/json/哔哩哔哩戏曲.json"
             },
             "style": {
                 "type": "rect",
@@ -1757,7 +1796,7 @@
             "quickSearch": 0,
             "filterable": 1,
             "ext": {
-                "json": "http://zxvideo.midsum.com/zxvideo/json/少儿教育.json",
+                "json": "http://zxvideo.midsum.com/zxvideo/DB/json/少儿教育.json",
                 "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
             },
             "style": {
@@ -1774,7 +1813,7 @@
             "quickSearch": 0,
             "filterable": 1,
             "ext": {
-                "json": "http://zxvideo.midsum.com/zxvideo/json/小学课堂.json",
+                "json": "http://zxvideo.midsum.com/zxvideo/DB/json/小学课堂.json",
                 "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
             },
             "style": {
@@ -1791,7 +1830,7 @@
             "quickSearch": 0,
             "filterable": 1,
             "ext": {
-                "json": "http://zxvideo.midsum.com/zxvideo/json/初中课堂.json",
+                "json": "http://zxvideo.midsum.com/zxvideo/DB/json/初中课堂.json",
                 "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
             },
             "style": {
@@ -1808,7 +1847,7 @@
             "quickSearch": 0,
             "filterable": 1,
             "ext": {
-                "json": "http://zxvideo.midsum.com/zxvideo/json/高中课堂.json",
+                "json": "http://zxvideo.midsum.com/zxvideo/DB/json/高中课堂.json",
                 "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
             },
             "style": {
@@ -1835,7 +1874,7 @@
             "name": "养生｜知识",
             "type": 3,
             "api": "csp_XBPQ",
-            "ext": "http://zxvideo.midsum.com/zxvideo/XBPQ/养生堂.json",
+            "ext": "http://zxvideo.midsum.com/zxvideo/DB/XBPQ/养生堂.json",
             "style": {
                 "type": "rect",
                 "ratio": 1.597
