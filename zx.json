@@ -1,7 +1,7 @@
 {
     "spider": "http://zxvideo.midsum.com/DB/spider.jar",
     "wallpaper": "http://bobohome.ignorelist.com:20247/bing",
-    "logo": "http://zxvideo.midsum.com/DB/logo7.png",
+    "logo": "http://zxvideo.midsum.com/DB/logo.png",
     "sites": [
         {
             "key": "豆瓣",
@@ -243,6 +243,21 @@
             }
         },
         {
+            "key": "首发",
+            "name": "首发｜APP",
+            "type": 3,
+            "api": "csp_AppQi",
+            "searchable": 1,
+            "changeable": 1,
+            "ext": {
+                "site": "https://yun-1316442804.cos.ap-guangzhou.myqcloud.com/600.txt",
+                "dataKey": "FTgP4Gq8zPiqbt7M",
+                "dataIv": "FTgP4Gq8zPiqbt7M",
+                "init": "initV122",
+                "ua": "okhttp/3.10.0"
+            }
+        },
+        {
             "key": "金牌",
             "name": "金牌｜APP",
             "type": 3,
@@ -337,19 +352,6 @@
                 "url": "https://app.95112475.xyz",
                 "dataKey": "5a9w6x58dsq6z3a6",
                 "dataIv": "5a9w6x58dsq6z3a6"
-            }
-        },
-        {
-            "key": "星空",
-            "name": "星空｜APP",
-            "type": 3,
-            "api": "csp_AppGet",
-            "searchable": 1,
-            "changeable": 1,
-            "ext": {
-                "site": "http://xk7.xkgzs.xyz/1/1234.txt",
-                "dataKey": "107jkcdncofcdkjk",
-                "dataIv": "107jkcdncofcdkjk"
             }
         },
         {
@@ -474,8 +476,7 @@
             "changeable": 1,
             "ext": {
                 "site": [
-                    "http://xsayang.fun:12512",
-                    "http://154.201.83.50:12512"
+                    "http://103.45.162.207:12512"
                 ]
             },
             "timeout": 60
@@ -510,6 +511,7 @@
             "changeable": 1,
             "ext": {
                 "site": [
+                    "http://www.xiaocgege.shop",
                     "http://xiaocge.fun",
                     "http://feimo.fun",
                     "https://feimao666.fun",
@@ -1091,7 +1093,8 @@
             "api": "csp_Xunlei8",
             "searchable": 1,
             "quickSearch": 1,
-            "filterable": 1
+            "filterable": 1,
+            "ext": "https://xunlei8.me"
         },
         {
             "key": "电影港",
@@ -1591,7 +1594,7 @@
         {
             "name": "直播源1",
             "type": 0,
-            "url": "https://live.fanmingming.com/tv/m3u/ipv6.m3u",
+            "url": "https://live.zbds.top/tv/iptv4.m3u",
             "timeout": 10
         },
         {
