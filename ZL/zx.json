@@ -1,7 +1,7 @@
 {
-    "spider": "./spider.jar",
+    "spider": "https://raw.gitcode.com/gcw_06T5nmbk/zxvideosource1/raw/master/ZL/spider.jar",
     "wallpaper": "http://bobohome.ignorelist.com:20247/bing",
-    "logo": "./logo.png",
+    "logo": "https://raw.gitcode.com/gcw_06T5nmbk/zxvideosource1/raw/master/ZL/logo.png",
     "sites": [
         {
             "key": "豆瓣",
@@ -795,7 +795,7 @@
             "key": "星芽短剧",
             "name": "星芽｜短剧",
             "type": 3,
-            "api": "./py/星芽短剧.py",
+            "api": "https://raw.gitcode.com/gcw_06T5nmbk/zxvideosource1/raw/master/ZL/py/星芽短剧.py",
             "searchable": 1,
             "changeable": 1,
             "quickSearch": 1,
@@ -859,28 +859,28 @@
             "name": "小镇｜影视",
             "type": 3,
             "api": "csp_XBPQ",
-            "ext": "./XBPQ/小镇影视.json"
+            "ext": "https://raw.gitcode.com/gcw_06T5nmbk/zxvideosource1/raw/master/ZL/XBPQ/小镇影视.json"
         },
         {
             "key": "面包影视",
             "name": "面包｜影视",
             "type": 3,
             "api": "csp_XBPQ",
-            "ext": "./XBPQ/面包影视.json"
+            "ext": "https://raw.gitcode.com/gcw_06T5nmbk/zxvideosource1/raw/master/ZL/XBPQ/面包影视.json"
         },
         {
             "key": "永乐影视",
             "name": "永乐｜影视",
             "type": 3,
             "api": "csp_XBPQ",
-            "ext": "./XBPQ/永乐影视.json"
+            "ext": "https://raw.gitcode.com/gcw_06T5nmbk/zxvideosource1/raw/master/ZL/XBPQ/永乐影视.json"
         },
         {
             "key": "剧圈影视",
             "name": "剧圈｜影视",
             "type": 3,
             "api": "csp_XYQHiker",
-            "ext": "./XYQHiker/剧圈影视.json"
+            "ext": "https://raw.gitcode.com/gcw_06T5nmbk/zxvideosource1/raw/master/ZL/XYQHiker/剧圈影视.json"
         },
         {
             "key": "1905",
@@ -899,14 +899,14 @@
             "style": {
                 "type": "list"
             },
-            "ext": "./XBPQ/哆啦新番社.json"
+            "ext": "https://raw.gitcode.com/gcw_06T5nmbk/zxvideosource1/raw/master/ZL/XBPQ/哆啦新番社.json"
         },
         {
             "key": "Anime1",
             "name": "A1｜动漫",
             "type": 3,
-            "api": "./js/drpy2.min.js",
-            "ext": "./js/Anime1.js"
+            "api": "https://raw.gitcode.com/gcw_06T5nmbk/zxvideosource1/raw/master/ZL/js/drpy2.min.js",
+            "ext": "https://raw.gitcode.com/gcw_06T5nmbk/zxvideosource1/raw/master/ZL/js/Anime1.js"
         },
         {
             "key": "漫国动漫",
@@ -974,21 +974,21 @@
             "name": "巴士｜动漫",
             "type": 3,
             "api": "csp_XYQHiker",
-            "ext": "./XYQHiker/巴士动漫.json"
+            "ext": "https://raw.gitcode.com/gcw_06T5nmbk/zxvideosource1/raw/master/ZL/XYQHiker/巴士动漫.json"
         },
         {
             "key": "路漫漫",
             "name": "路漫漫｜动漫",
             "type": 3,
-            "api": "./js/drpy2.min.js",
-            "ext": "./js/路漫漫.js"
+            "api": "https://raw.gitcode.com/gcw_06T5nmbk/zxvideosource1/raw/master/ZL/js/drpy2.min.js",
+            "ext": "https://raw.gitcode.com/gcw_06T5nmbk/zxvideosource1/raw/master/ZL/js/路漫漫.js"
         },
         {
             "key": "去看吧",
             "name": "去看吧｜动漫",
             "type": 3,
-            "api": "./js/drpy2.min.js",
-            "ext": "./js/去看吧.js"
+            "api": "https://raw.gitcode.com/gcw_06T5nmbk/zxvideosource1/raw/master/ZL/js/drpy2.min.js",
+            "ext": "https://raw.gitcode.com/gcw_06T5nmbk/zxvideosource1/raw/master/ZL/js/去看吧.js"
         },
         {
             "key": "荐片",
@@ -1062,7 +1062,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "./XYQHiker/电影港.json"
+            "ext": "https://raw.gitcode.com/gcw_06T5nmbk/zxvideosource1/raw/master/ZL/XYQHiker/电影港.json"
         },
         {
             "key": "电影天堂",
@@ -1320,19 +1320,19 @@
             "key": "爱听音乐",
             "name": "爱听｜音乐",
             "type": 3,
-            "api": "./py/爱听音乐.py"
+            "api": "https://raw.gitcode.com/gcw_06T5nmbk/zxvideosource1/raw/master/ZL/py/爱听音乐.py"
         },
         {
             "key": "网络直播",
             "name": "网络｜直播",
             "type": 3,
-            "api": "./py/网络直播.py"
+            "api": "https://raw.gitcode.com/gcw_06T5nmbk/zxvideosource1/raw/master/ZL/py/网络直播.py"
         },
         {
             "key": "哔哩直播",
             "name": "哔哩｜直播",
             "type": 3,
-            "api": "./py/哔哩直播.py"
+            "api": "https://raw.gitcode.com/gcw_06T5nmbk/zxvideosource1/raw/master/ZL/py/哔哩直播.py"
         },
         {
             "key": "哔哩合集",
@@ -1348,7 +1348,7 @@
                 "ratio": 1.433
             },
             "ext": {
-                "json": "./json/哔哩合集.json",
+                "json": "https://raw.gitcode.com/gcw_06T5nmbk/zxvideosource1/raw/master/ZL/json/哔哩合集.json",
                 "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
             }
         },
@@ -1361,7 +1361,7 @@
             "quickSearch": 0,
             "filterable": 0,
             "ext": {
-                "json": "./json/哔哩哔哩演唱会.json",
+                "json": "https://raw.gitcode.com/gcw_06T5nmbk/zxvideosource1/raw/master/ZL/json/哔哩哔哩演唱会.json",
                 "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
             },
             "style": {
@@ -1378,7 +1378,7 @@
             "quickSearch": 0,
             "filterable": 0,
             "ext": {
-                "json": "./json/哔哩哔哩听书.json",
+                "json": "https://raw.gitcode.com/gcw_06T5nmbk/zxvideosource1/raw/master/ZL/json/哔哩哔哩听书.json",
                 "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
             },
             "style": {
@@ -1395,7 +1395,7 @@
             "quickSearch": 0,
             "filterable": 0,
             "ext": {
-                "json": "./json/哔哩哔哩相声.json",
+                "json": "https://raw.gitcode.com/gcw_06T5nmbk/zxvideosource1/raw/master/ZL/json/哔哩哔哩相声.json",
                 "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
             },
             "style": {
@@ -1412,7 +1412,7 @@
             "quickSearch": 0,
             "filterable": 0,
             "ext": {
-                "json": "./json/哔哩哔哩小品.json",
+                "json": "https://raw.gitcode.com/gcw_06T5nmbk/zxvideosource1/raw/master/ZL/json/哔哩哔哩小品.json",
                 "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
             },
             "style": {
@@ -1429,7 +1429,7 @@
             "quickSearch": 0,
             "filterable": 0,
             "ext": {
-                "json": "./json/哔哩哔哩戏曲.json",
+                "json": "https://raw.gitcode.com/gcw_06T5nmbk/zxvideosource1/raw/master/ZL/json/哔哩哔哩戏曲.json",
                 "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
             },
             "style": {
@@ -1446,7 +1446,7 @@
             "quickSearch": 0,
             "filterable": 1,
             "ext": {
-                "json": "./json/少儿教育.json",
+                "json": "https://raw.gitcode.com/gcw_06T5nmbk/zxvideosource1/raw/master/ZL/json/少儿教育.json",
                 "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
             },
             "style": {
@@ -1463,7 +1463,7 @@
             "quickSearch": 0,
             "filterable": 1,
             "ext": {
-                "json": "./json/小学课堂.json",
+                "json": "https://raw.gitcode.com/gcw_06T5nmbk/zxvideosource1/raw/master/ZL/json/小学课堂.json",
                 "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
             },
             "style": {
@@ -1480,7 +1480,7 @@
             "quickSearch": 0,
             "filterable": 1,
             "ext": {
-                "json": "./json/初中课堂.json",
+                "json": "https://raw.gitcode.com/gcw_06T5nmbk/zxvideosource1/raw/master/ZL/json/初中课堂.json",
                 "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
             },
             "style": {
@@ -1497,7 +1497,7 @@
             "quickSearch": 0,
             "filterable": 1,
             "ext": {
-                "json": "./json/高中课堂.json",
+                "json": "https://raw.gitcode.com/gcw_06T5nmbk/zxvideosource1/raw/master/ZL/json/高中课堂.json",
                 "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
             },
             "style": {
@@ -1524,7 +1524,7 @@
             "name": "养生｜知识",
             "type": 3,
             "api": "csp_XBPQ",
-            "ext": "./XBPQ/养生堂.json",
+            "ext": "https://raw.gitcode.com/gcw_06T5nmbk/zxvideosource1/raw/master/ZL/XBPQ/养生堂.json",
             "style": {
                 "type": "rect",
                 "ratio": 1.597
@@ -1584,7 +1584,7 @@
         {
             "name": "山东移动宽带专用",
             "type": 0,
-            "url": "./SDYDIPTV.m3u",
+            "url": "https://raw.gitcode.com/gcw_06T5nmbk/zxvideosource1/raw/master/ZL/SDYDIPTV.m3u",
             "epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}",
             "timeout": 10
         }
