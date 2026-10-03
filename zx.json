@@ -6,7 +6,7 @@
     "sites": [
         {
             "key": "豆瓣",
-            "name": "仲夏影音 · 允许一切发生",
+            "name": "仲夏影音 • 天气很哇塞⛅",
             "type": 3,
             "api": "csp_Douban",
             "searchable": 0
@@ -1492,36 +1492,18 @@
     ],
     "lives": [
         {
-            "name": "点此切换直播源",
-            "type": 0,
-            "url": "https://gitee.com/mytv-android/iptv-api/raw/master/output/result.m3u",
-            "epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}",
-            "timeout": 10
-        },
-        {
             "name": "直播源1",
             "type": 0,
-            "url": "https://live.zbds.top/tv/iptv4.m3u",
+            "url": "https://gh-proxy.com/raw.githubusercontent.com/best-fan/iptv-sources/master/cn_all_status.m3u8",
             "timeout": 10
         },
         {
             "name": "直播源2",
             "type": 0,
-            "url": "https://gh.llkk.cc/https://github.com/Kimentanm/aptv/raw/master/m3u/iptv.m3u",
-            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
-            "logo": "https://epg.iill.top/logo/{name}.png",
-            "ua": "okhttp/3.15,AptvPlayer/1.4.0",
+            "url": "https://gh-proxy.com/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv/iptv4.m3u",
             "timeout": 10
         },
-        {
-            "name": "直播源3",
-            "type": 0,
-            "url": "https://gh.llkk.cc/https://raw.githubusercontent.com/PizazzGY/TV/master/output/user_result.txt",
-            "epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}",
-            "playerType": 1,
-            "timeout": 10
-        },
-        {
+                {
             "name": "山东移动宽带专用",
             "type": 0,
             "url": "https://zxvideo.midsum.com/TV/SDYDIPTV.m3u",
